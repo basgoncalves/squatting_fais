@@ -662,3 +662,840 @@
 [2025-04-02 12:21:13.829] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
 [2025-04-02 12:21:13.829] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
 [2025-04-02 12:21:13.829] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-04-02 12:24:21.470] [info] Loaded marker file C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:24:21.474] [info] Measurement 'upperarm_l_Y'
+[2025-04-02 12:24:21.474] [info] 	pair 0 (LSHO, LLEP): model = 0.36913, experimental = 0.383207
+[2025-04-02 12:24:21.474] [info] 	pair 1 (LSHO, LMEP): model = 0.370850, experimental = 0.391617
+[2025-04-02 12:24:21.474] [info] 	overall scale factor = 1.04707
+[2025-04-02 12:24:21.474] [info] Measurement 'upperarm_l_XZ'
+[2025-04-02 12:24:21.474] [info] 	pair 0 (LMEP, LLEP): model = 0.0971668, experimental = 0.0786983
+[2025-04-02 12:24:21.474] [info] 	overall scale factor = 0.809930
+[2025-04-02 12:24:21.475] [info] Measurement 'lowerarm_l_Y'
+[2025-04-02 12:24:21.475] [info] 	pair 0 (LMEP, LUL): model = 0.258051, experimental = 0.268845
+[2025-04-02 12:24:21.475] [info] 	pair 1 (LLEP, LRAD): model = 0.264862, experimental = 0.260731
+[2025-04-02 12:24:21.475] [info] 	overall scale factor = 1.01312
+[2025-04-02 12:24:21.475] [info] Measurement 'lowerarm_l_XZ'
+[2025-04-02 12:24:21.475] [info] 	pair 0 (LRAD, LUL): model = 0.0715567, experimental = 0.0753822
+[2025-04-02 12:24:21.475] [info] 	pair 1 (LLEP, LMEP): model = 0.0971668, experimental = 0.0786983
+[2025-04-02 12:24:21.475] [info] 	overall scale factor = 0.931696
+[2025-04-02 12:24:21.475] [info] Measurement 'hand_l_XYZ'
+[2025-04-02 12:24:21.475] [info] 	pair 0 (LRFIN, LRAD): model = 0.0914175, experimental = 0.068657
+[2025-04-02 12:24:21.475] [info] 	pair 1 (LUL, LRAD): model = 0.0715567, experimental = 0.0753822
+[2025-04-02 12:24:21.475] [info] 	overall scale factor = 0.902244
+[2025-04-02 12:24:21.475] [info] Measurement 'upperarm_r_Y'
+[2025-04-02 12:24:21.475] [info] 	pair 0 (RSHO, RLEP): model = 0.369453, experimental = 0.378231
+[2025-04-02 12:24:21.475] [info] 	overall scale factor = 1.02376
+[2025-04-02 12:24:21.475] [info] Measurement 'upperarm_r_XZ'
+[2025-04-02 12:24:21.475] [info] 	pair 0 (RMEP, RLEP): model = 0.0977635, experimental = 0.0757292
+[2025-04-02 12:24:21.475] [info] 	overall scale factor = 0.774617
+[2025-04-02 12:24:21.476] [info] Measurement 'lowerarm_r_Y'
+[2025-04-02 12:24:21.476] [info] 	pair 0 (RMEP, RUL): model = 0.263703, experimental = 0.269585
+[2025-04-02 12:24:21.476] [info] 	pair 1 (RLEP, RRAD): model = 0.267374, experimental = 0.265777
+[2025-04-02 12:24:21.476] [info] 	overall scale factor = 1.00816
+[2025-04-02 12:24:21.476] [info] Measurement 'lowerarm_r_XZ'
+[2025-04-02 12:24:21.476] [info] 	pair 0 (RRAD, RUL): model = 0.0719501, experimental = 0.0695166
+[2025-04-02 12:24:21.476] [info] 	pair 1 (RLEP, RMEP): model = 0.0977635, experimental = 0.0757292
+[2025-04-02 12:24:21.476] [info] 	overall scale factor = 0.870397
+[2025-04-02 12:24:21.476] [info] Measurement 'hand_r_XYZ'
+[2025-04-02 12:24:21.476] [info] 	pair 0 (RUFIN, RRAD): model = 0.0991813, experimental = 0.0696085
+[2025-04-02 12:24:21.476] [info] 	pair 1 (RUL, RRAD): model = 0.0719501, experimental = 0.0695166
+[2025-04-02 12:24:21.476] [info] 	overall scale factor = 0.834004
+[2025-04-02 12:24:21.476] [info] Measurement 'torso_Y'
+[2025-04-02 12:24:21.476] [info] 	pair 0 (LSHO, LSACR): model = 0.463489, experimental = 0.478445
+[2025-04-02 12:24:21.477] [info] 	pair 1 (RSHO, RSACR): model = 0.464616, experimental = 0.471475
+[2025-04-02 12:24:21.477] [info] 	overall scale factor = 1.02352
+[2025-04-02 12:24:21.477] [info] Measurement 'torso_Z'
+[2025-04-02 12:24:21.477] [info] 	pair 0 (RSHO, LSHO): model = 0.293763, experimental = 0.315944
+[2025-04-02 12:24:21.477] [info] 	overall scale factor = 1.07551
+[2025-04-02 12:24:21.477] [info] Measurement 'Pelvis_X'
+[2025-04-02 12:24:21.477] [info] 	pair 0 (RASI, RSACR): model = 0.204146, experimental = 0.203134
+[2025-04-02 12:24:21.477] [info] 	pair 1 (LASI, LSACR): model = 0.206506, experimental = 0.210318
+[2025-04-02 12:24:21.477] [info] 	overall scale factor = 1.00675
+[2025-04-02 12:24:21.477] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:24:21.477] [warning] Marker LHJC in Pelvis_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.477] [info] Measurement 'Pelvis_Z'
+[2025-04-02 12:24:21.477] [info] 	pair 0 (RASI, LASI): model = 0.243945, experimental = 0.214409
+[2025-04-02 12:24:21.477] [warning] Marker RHJC in Pelvis_Z measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [warning] Marker LHJC in Pelvis_Z measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:24:21.478] [warning] Marker RHJC in thigh_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [warning] Marker RKJC in thigh_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [info] Measurement 'thigh_r_XZ'
+[2025-04-02 12:24:21.478] [warning] Marker RMFC in thigh_r_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:24:21.478] [warning] Marker RAJC in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [warning] Marker RKJC in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [info] Measurement 'shank_r_XZ'
+[2025-04-02 12:24:21.478] [warning] Marker RMFC in shank_r_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [info] Measurement 'foot_r_XYZ'
+[2025-04-02 12:24:21.478] [info] 	pair 0 (RHEE, RMT1): model = 0.219838, experimental = 0.224726
+[2025-04-02 12:24:21.478] [info] 	pair 1 (RMT2, RMT1): model = 0.043732, experimental = 0.0425801
+[2025-04-02 12:24:21.478] [info] 	overall scale factor = 0.997947
+[2025-04-02 12:24:21.478] [info] Measurement 'thigh_l_Y'
+[2025-04-02 12:24:21.478] [warning] Marker LKJC in thigh_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [warning] Marker LHJC in thigh_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [info] Measurement 'thigh_l_XZ'
+[2025-04-02 12:24:21.478] [warning] Marker LMFC in thigh_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [warning] Marker LLFC in thigh_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [info] Measurement 'shank_l_Y'
+[2025-04-02 12:24:21.478] [warning] Marker LKJC in shank_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [warning] Marker LAJC in shank_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [info] Measurement 'shank_l_XZ'
+[2025-04-02 12:24:21.478] [warning] Marker LMFC in shank_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [warning] Marker LLFC in shank_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.478] [info] Measurement 'foot_l'
+[2025-04-02 12:24:21.478] [info] 	pair 0 (LHEE, LMT1): model = 0.220323, experimental = 0.220859
+[2025-04-02 12:24:21.478] [info] 	overall scale factor = 1.00243
+[2025-04-02 12:24:21.506] [info] Measurement 'upperarm_l_Y'
+[2025-04-02 12:24:21.506] [info] 	pair 0 (LSHO, LLEP): model = 0.36913, experimental = 0.383207
+[2025-04-02 12:24:21.506] [info] 	pair 1 (LSHO, LMEP): model = 0.370850, experimental = 0.391617
+[2025-04-02 12:24:21.507] [info] 	overall scale factor = 1.04707
+[2025-04-02 12:24:21.507] [info] Measurement 'upperarm_l_XZ'
+[2025-04-02 12:24:21.507] [info] 	pair 0 (LMEP, LLEP): model = 0.0971668, experimental = 0.0786983
+[2025-04-02 12:24:21.507] [info] 	overall scale factor = 0.809930
+[2025-04-02 12:24:21.507] [info] Measurement 'lowerarm_l_Y'
+[2025-04-02 12:24:21.507] [info] 	pair 0 (LMEP, LUL): model = 0.258051, experimental = 0.268845
+[2025-04-02 12:24:21.507] [info] 	pair 1 (LLEP, LRAD): model = 0.264862, experimental = 0.260731
+[2025-04-02 12:24:21.507] [info] 	overall scale factor = 1.01312
+[2025-04-02 12:24:21.507] [info] Measurement 'lowerarm_l_XZ'
+[2025-04-02 12:24:21.507] [info] 	pair 0 (LRAD, LUL): model = 0.0715567, experimental = 0.0753822
+[2025-04-02 12:24:21.507] [info] 	pair 1 (LLEP, LMEP): model = 0.0971668, experimental = 0.0786983
+[2025-04-02 12:24:21.508] [info] 	overall scale factor = 0.931696
+[2025-04-02 12:24:21.508] [info] Measurement 'hand_l_XYZ'
+[2025-04-02 12:24:21.508] [info] 	pair 0 (LRFIN, LRAD): model = 0.0914175, experimental = 0.068657
+[2025-04-02 12:24:21.508] [info] 	pair 1 (LUL, LRAD): model = 0.0715567, experimental = 0.0753822
+[2025-04-02 12:24:21.508] [info] 	overall scale factor = 0.902244
+[2025-04-02 12:24:21.508] [info] Measurement 'upperarm_r_Y'
+[2025-04-02 12:24:21.508] [info] 	pair 0 (RSHO, RLEP): model = 0.369453, experimental = 0.378231
+[2025-04-02 12:24:21.508] [info] 	overall scale factor = 1.02376
+[2025-04-02 12:24:21.508] [info] Measurement 'upperarm_r_XZ'
+[2025-04-02 12:24:21.508] [info] 	pair 0 (RMEP, RLEP): model = 0.0977635, experimental = 0.0757292
+[2025-04-02 12:24:21.509] [info] 	overall scale factor = 0.774617
+[2025-04-02 12:24:21.509] [info] Measurement 'lowerarm_r_Y'
+[2025-04-02 12:24:21.509] [info] 	pair 0 (RMEP, RUL): model = 0.263703, experimental = 0.269585
+[2025-04-02 12:24:21.509] [info] 	pair 1 (RLEP, RRAD): model = 0.267374, experimental = 0.265777
+[2025-04-02 12:24:21.509] [info] 	overall scale factor = 1.00816
+[2025-04-02 12:24:21.518] [info] Measurement 'lowerarm_r_XZ'
+[2025-04-02 12:24:21.519] [info] 	pair 0 (RRAD, RUL): model = 0.0719501, experimental = 0.0695166
+[2025-04-02 12:24:21.519] [info] 	pair 1 (RLEP, RMEP): model = 0.0977635, experimental = 0.0757292
+[2025-04-02 12:24:21.519] [info] 	overall scale factor = 0.870397
+[2025-04-02 12:24:21.519] [info] Measurement 'hand_r_XYZ'
+[2025-04-02 12:24:21.519] [info] 	pair 0 (RUFIN, RRAD): model = 0.0991813, experimental = 0.0696085
+[2025-04-02 12:24:21.519] [info] 	pair 1 (RUL, RRAD): model = 0.0719501, experimental = 0.0695166
+[2025-04-02 12:24:21.519] [info] 	overall scale factor = 0.834004
+[2025-04-02 12:24:21.519] [info] Measurement 'torso_Y'
+[2025-04-02 12:24:21.519] [info] 	pair 0 (LSHO, LSACR): model = 0.463489, experimental = 0.478445
+[2025-04-02 12:24:21.519] [info] 	pair 1 (RSHO, RSACR): model = 0.464616, experimental = 0.471475
+[2025-04-02 12:24:21.519] [info] 	overall scale factor = 1.02352
+[2025-04-02 12:24:21.519] [info] Measurement 'torso_Z'
+[2025-04-02 12:24:21.519] [info] 	pair 0 (RSHO, LSHO): model = 0.293763, experimental = 0.315944
+[2025-04-02 12:24:21.520] [info] 	overall scale factor = 1.07551
+[2025-04-02 12:24:21.520] [info] Measurement 'Pelvis_X'
+[2025-04-02 12:24:21.520] [info] 	pair 0 (RASI, RSACR): model = 0.204146, experimental = 0.203134
+[2025-04-02 12:24:21.520] [info] 	pair 1 (LASI, LSACR): model = 0.206506, experimental = 0.210318
+[2025-04-02 12:24:21.520] [info] 	overall scale factor = 1.00675
+[2025-04-02 12:24:21.520] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:24:21.520] [warning] Marker LHJC in Pelvis_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.520] [info] Measurement 'Pelvis_Z'
+[2025-04-02 12:24:21.520] [info] 	pair 0 (RASI, LASI): model = 0.243945, experimental = 0.214409
+[2025-04-02 12:24:21.520] [warning] Marker RHJC in Pelvis_Z measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.520] [warning] Marker LHJC in Pelvis_Z measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.520] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:24:21.520] [warning] Marker RHJC in thigh_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.520] [warning] Marker RKJC in thigh_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.520] [info] Measurement 'thigh_r_XZ'
+[2025-04-02 12:24:21.520] [warning] Marker RMFC in thigh_r_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.520] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:24:21.520] [warning] Marker RAJC in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.520] [warning] Marker RKJC in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.520] [info] Measurement 'shank_r_XZ'
+[2025-04-02 12:24:21.520] [warning] Marker RMFC in shank_r_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.520] [info] Measurement 'foot_r_XYZ'
+[2025-04-02 12:24:21.520] [info] 	pair 0 (RHEE, RMT1): model = 0.219838, experimental = 0.224726
+[2025-04-02 12:24:21.520] [info] 	pair 1 (RMT2, RMT1): model = 0.043732, experimental = 0.0425801
+[2025-04-02 12:24:21.520] [info] 	overall scale factor = 0.997947
+[2025-04-02 12:24:21.520] [info] Measurement 'thigh_l_Y'
+[2025-04-02 12:24:21.520] [warning] Marker LKJC in thigh_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.520] [warning] Marker LHJC in thigh_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.520] [info] Measurement 'thigh_l_XZ'
+[2025-04-02 12:24:21.520] [warning] Marker LMFC in thigh_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.520] [warning] Marker LLFC in thigh_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.521] [info] Measurement 'shank_l_Y'
+[2025-04-02 12:24:21.521] [warning] Marker LKJC in shank_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.521] [warning] Marker LAJC in shank_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.521] [info] Measurement 'shank_l_XZ'
+[2025-04-02 12:24:21.521] [warning] Marker LMFC in shank_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.521] [warning] Marker LLFC in shank_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:21.521] [info] Measurement 'foot_l'
+[2025-04-02 12:24:21.521] [info] 	pair 0 (LHEE, LMT1): model = 0.220323, experimental = 0.220859
+[2025-04-02 12:24:21.521] [info] 	overall scale factor = 1.00243
+[2025-04-02 12:24:26.136] [info] Loaded marker file C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:24:59.101] [info] Measurement 'upperarm_l_Y'
+[2025-04-02 12:24:59.102] [info] 	pair 0 (LSHO, LLEP): model = 0.36913, experimental = 0.381374
+[2025-04-02 12:24:59.102] [info] 	pair 1 (LSHO, LMEP): model = 0.370850, experimental = 0.389561
+[2025-04-02 12:24:59.102] [info] 	overall scale factor = 1.04181
+[2025-04-02 12:24:59.102] [info] Measurement 'upperarm_l_XZ'
+[2025-04-02 12:24:59.102] [info] 	pair 0 (LMEP, LLEP): model = 0.0971668, experimental = 0.0798017
+[2025-04-02 12:24:59.102] [info] 	overall scale factor = 0.821286
+[2025-04-02 12:24:59.102] [info] Measurement 'lowerarm_l_Y'
+[2025-04-02 12:24:59.102] [info] 	pair 0 (LMEP, LUL): model = 0.258051, experimental = 0.261926
+[2025-04-02 12:24:59.102] [info] 	pair 1 (LLEP, LRAD): model = 0.264862, experimental = 0.260269
+[2025-04-02 12:24:59.102] [info] 	overall scale factor = 0.998839
+[2025-04-02 12:24:59.102] [info] Measurement 'lowerarm_l_XZ'
+[2025-04-02 12:24:59.102] [info] 	pair 0 (LRAD, LUL): model = 0.0715567, experimental = 0.0750314
+[2025-04-02 12:24:59.102] [info] 	pair 1 (LLEP, LMEP): model = 0.0971668, experimental = 0.0798017
+[2025-04-02 12:24:59.102] [info] 	overall scale factor = 0.934922
+[2025-04-02 12:24:59.102] [info] Measurement 'hand_l_XYZ'
+[2025-04-02 12:24:59.102] [info] 	pair 0 (LRFIN, LRAD): model = 0.0914175, experimental = 0.0857299
+[2025-04-02 12:24:59.102] [info] 	pair 1 (LUL, LRAD): model = 0.0715567, experimental = 0.0750314
+[2025-04-02 12:24:59.102] [info] 	overall scale factor = 0.993171
+[2025-04-02 12:24:59.102] [info] Measurement 'upperarm_r_Y'
+[2025-04-02 12:24:59.102] [info] 	pair 0 (RSHO, RLEP): model = 0.369453, experimental = 0.379686
+[2025-04-02 12:24:59.102] [info] 	overall scale factor = 1.0277
+[2025-04-02 12:24:59.102] [info] Measurement 'upperarm_r_XZ'
+[2025-04-02 12:24:59.103] [info] 	pair 0 (RMEP, RLEP): model = 0.0977635, experimental = 0.0750721
+[2025-04-02 12:24:59.103] [info] 	overall scale factor = 0.767895
+[2025-04-02 12:24:59.103] [info] Measurement 'lowerarm_r_Y'
+[2025-04-02 12:24:59.103] [info] 	pair 0 (RMEP, RUL): model = 0.263703, experimental = 0.269653
+[2025-04-02 12:24:59.103] [info] 	pair 1 (RLEP, RRAD): model = 0.267374, experimental = 0.264949
+[2025-04-02 12:24:59.103] [info] 	overall scale factor = 1.00675
+[2025-04-02 12:24:59.103] [info] Measurement 'lowerarm_r_XZ'
+[2025-04-02 12:24:59.103] [info] 	pair 0 (RRAD, RUL): model = 0.0719501, experimental = 0.0690179
+[2025-04-02 12:24:59.103] [info] 	pair 1 (RLEP, RMEP): model = 0.0977635, experimental = 0.0750721
+[2025-04-02 12:24:59.103] [info] 	overall scale factor = 0.86357
+[2025-04-02 12:24:59.103] [info] Measurement 'hand_r_XYZ'
+[2025-04-02 12:24:59.103] [info] 	pair 0 (RUFIN, RRAD): model = 0.0991813, experimental = 0.0694128
+[2025-04-02 12:24:59.103] [info] 	pair 1 (RUL, RRAD): model = 0.0719501, experimental = 0.0690179
+[2025-04-02 12:24:59.103] [info] 	overall scale factor = 0.829551
+[2025-04-02 12:24:59.103] [info] Measurement 'torso_Y'
+[2025-04-02 12:24:59.103] [info] 	pair 0 (LSHO, LSACR): model = 0.463489, experimental = 0.4746
+[2025-04-02 12:24:59.103] [info] 	pair 1 (RSHO, RSACR): model = 0.464616, experimental = 0.468121
+[2025-04-02 12:24:59.103] [info] 	overall scale factor = 1.01576
+[2025-04-02 12:24:59.103] [info] Measurement 'torso_Z'
+[2025-04-02 12:24:59.103] [info] 	pair 0 (RSHO, LSHO): model = 0.293763, experimental = 0.311296
+[2025-04-02 12:24:59.103] [info] 	overall scale factor = 1.05968
+[2025-04-02 12:24:59.103] [info] Measurement 'Pelvis_X'
+[2025-04-02 12:24:59.103] [info] 	pair 0 (RASI, RSACR): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:24:59.103] [info] 	pair 1 (LASI, LSACR): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:24:59.103] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:24:59.104] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:24:59.104] [warning] Marker LHJC in Pelvis_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.104] [info] Measurement 'Pelvis_Z'
+[2025-04-02 12:24:59.104] [info] 	pair 0 (RASI, LASI): model = 0.243945, experimental = 0.214514
+[2025-04-02 12:24:59.104] [warning] Marker RHJC in Pelvis_Z measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.104] [warning] Marker LHJC in Pelvis_Z measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.104] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:24:59.104] [warning] Marker RHJC in thigh_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.104] [warning] Marker RKJC in thigh_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.104] [info] Measurement 'thigh_r_XZ'
+[2025-04-02 12:24:59.104] [warning] Marker RMFC in thigh_r_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.104] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:24:59.104] [warning] Marker RAJC in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.104] [warning] Marker RKJC in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.104] [info] Measurement 'shank_r_XZ'
+[2025-04-02 12:24:59.104] [warning] Marker RMFC in shank_r_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.104] [info] Measurement 'foot_r_XYZ'
+[2025-04-02 12:24:59.104] [info] 	pair 0 (RHEE, RMT1): model = 0.219838, experimental = 0.223396
+[2025-04-02 12:24:59.104] [info] 	pair 1 (RMT2, RMT1): model = 0.043732, experimental = 0.0426801
+[2025-04-02 12:24:59.104] [info] 	overall scale factor = 0.996067
+[2025-04-02 12:24:59.104] [info] Measurement 'thigh_l_Y'
+[2025-04-02 12:24:59.104] [warning] Marker LKJC in thigh_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.105] [warning] Marker LHJC in thigh_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.105] [info] Measurement 'thigh_l_XZ'
+[2025-04-02 12:24:59.105] [warning] Marker LMFC in thigh_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.105] [warning] Marker LLFC in thigh_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.105] [info] Measurement 'shank_l_Y'
+[2025-04-02 12:24:59.105] [warning] Marker LKJC in shank_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.105] [warning] Marker LAJC in shank_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.105] [info] Measurement 'shank_l_XZ'
+[2025-04-02 12:24:59.105] [warning] Marker LMFC in shank_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.105] [warning] Marker LLFC in shank_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:24:59.105] [info] Measurement 'foot_l'
+[2025-04-02 12:24:59.105] [info] 	pair 0 (LHEE, LMT1): model = 0.220323, experimental = 0.221027
+[2025-04-02 12:24:59.105] [info] 	overall scale factor = 1.00320
+[2025-04-02 12:26:26.365] [info] Loaded marker file C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:26:26.366] [info] Measurement 'upperarm_l_Y'
+[2025-04-02 12:26:26.366] [info] 	pair 0 (LSHO, LLEP): model = 0.36913, experimental = 0.381374
+[2025-04-02 12:26:26.366] [info] 	pair 1 (LSHO, LMEP): model = 0.370850, experimental = 0.389561
+[2025-04-02 12:26:26.366] [info] 	overall scale factor = 1.04181
+[2025-04-02 12:26:26.366] [info] Measurement 'upperarm_l_XZ'
+[2025-04-02 12:26:26.366] [info] 	pair 0 (LMEP, LLEP): model = 0.0971668, experimental = 0.0798017
+[2025-04-02 12:26:26.366] [info] 	overall scale factor = 0.821286
+[2025-04-02 12:26:26.367] [info] Measurement 'lowerarm_l_Y'
+[2025-04-02 12:26:26.367] [info] 	pair 0 (LMEP, LUL): model = 0.258051, experimental = 0.261926
+[2025-04-02 12:26:26.367] [info] 	pair 1 (LLEP, LRAD): model = 0.264862, experimental = 0.260269
+[2025-04-02 12:26:26.367] [info] 	overall scale factor = 0.998839
+[2025-04-02 12:26:26.367] [info] Measurement 'lowerarm_l_XZ'
+[2025-04-02 12:26:26.367] [info] 	pair 0 (LRAD, LUL): model = 0.0715567, experimental = 0.0750314
+[2025-04-02 12:26:26.367] [info] 	pair 1 (LLEP, LMEP): model = 0.0971668, experimental = 0.0798017
+[2025-04-02 12:26:26.367] [info] 	overall scale factor = 0.934922
+[2025-04-02 12:26:26.367] [info] Measurement 'hand_l_XYZ'
+[2025-04-02 12:26:26.367] [info] 	pair 0 (LRFIN, LRAD): model = 0.0914175, experimental = 0.0857299
+[2025-04-02 12:26:26.367] [info] 	pair 1 (LUL, LRAD): model = 0.0715567, experimental = 0.0750314
+[2025-04-02 12:26:26.367] [info] 	overall scale factor = 0.993171
+[2025-04-02 12:26:26.367] [info] Measurement 'upperarm_r_Y'
+[2025-04-02 12:26:26.367] [info] 	pair 0 (RSHO, RLEP): model = 0.369453, experimental = 0.379686
+[2025-04-02 12:26:26.367] [info] 	overall scale factor = 1.0277
+[2025-04-02 12:26:26.367] [info] Measurement 'upperarm_r_XZ'
+[2025-04-02 12:26:26.367] [info] 	pair 0 (RMEP, RLEP): model = 0.0977635, experimental = 0.0750721
+[2025-04-02 12:26:26.367] [info] 	overall scale factor = 0.767895
+[2025-04-02 12:26:26.367] [info] Measurement 'lowerarm_r_Y'
+[2025-04-02 12:26:26.367] [info] 	pair 0 (RMEP, RUL): model = 0.263703, experimental = 0.269653
+[2025-04-02 12:26:26.367] [info] 	pair 1 (RLEP, RRAD): model = 0.267374, experimental = 0.264949
+[2025-04-02 12:26:26.367] [info] 	overall scale factor = 1.00675
+[2025-04-02 12:26:26.367] [info] Measurement 'lowerarm_r_XZ'
+[2025-04-02 12:26:26.367] [info] 	pair 0 (RRAD, RUL): model = 0.0719501, experimental = 0.0690179
+[2025-04-02 12:26:26.367] [info] 	pair 1 (RLEP, RMEP): model = 0.0977635, experimental = 0.0750721
+[2025-04-02 12:26:26.367] [info] 	overall scale factor = 0.86357
+[2025-04-02 12:26:26.367] [info] Measurement 'hand_r_XYZ'
+[2025-04-02 12:26:26.367] [info] 	pair 0 (RUFIN, RRAD): model = 0.0991813, experimental = 0.0694128
+[2025-04-02 12:26:26.367] [info] 	pair 1 (RUL, RRAD): model = 0.0719501, experimental = 0.0690179
+[2025-04-02 12:26:26.367] [info] 	overall scale factor = 0.829551
+[2025-04-02 12:26:26.367] [info] Measurement 'torso_Y'
+[2025-04-02 12:26:26.367] [info] 	pair 0 (LSHO, LSACR): model = 0.463489, experimental = 0.4746
+[2025-04-02 12:26:26.367] [info] 	pair 1 (RSHO, RSACR): model = 0.464616, experimental = 0.468121
+[2025-04-02 12:26:26.367] [info] 	overall scale factor = 1.01576
+[2025-04-02 12:26:26.367] [info] Measurement 'torso_Z'
+[2025-04-02 12:26:26.367] [info] 	pair 0 (RSHO, LSHO): model = 0.293763, experimental = 0.311296
+[2025-04-02 12:26:26.367] [info] 	overall scale factor = 1.05968
+[2025-04-02 12:26:26.367] [info] Measurement 'Pelvis_X'
+[2025-04-02 12:26:26.367] [info] 	pair 0 (RASI, RSACR): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:26:26.367] [info] 	pair 1 (LASI, LSACR): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:26:26.367] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:26:26.367] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:26:26.367] [warning] Marker LHJC in Pelvis_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.367] [info] Measurement 'Pelvis_Z'
+[2025-04-02 12:26:26.367] [info] 	pair 0 (RASI, LASI): model = 0.243945, experimental = 0.214514
+[2025-04-02 12:26:26.367] [warning] Marker RHJC in Pelvis_Z measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.367] [warning] Marker LHJC in Pelvis_Z measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.367] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:26:26.367] [warning] Marker RHJC in thigh_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.367] [warning] Marker RKJC in thigh_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.367] [info] Measurement 'thigh_r_XZ'
+[2025-04-02 12:26:26.367] [warning] Marker RMFC in thigh_r_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.367] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:26:26.367] [warning] Marker RAJC in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.367] [warning] Marker RKJC in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.368] [info] Measurement 'shank_r_XZ'
+[2025-04-02 12:26:26.368] [warning] Marker RMFC in shank_r_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.368] [info] Measurement 'foot_r_XYZ'
+[2025-04-02 12:26:26.368] [info] 	pair 0 (RHEE, RMT1): model = 0.219838, experimental = 0.223396
+[2025-04-02 12:26:26.368] [info] 	pair 1 (RMT2, RMT1): model = 0.043732, experimental = 0.0426801
+[2025-04-02 12:26:26.368] [info] 	overall scale factor = 0.996067
+[2025-04-02 12:26:26.368] [info] Measurement 'thigh_l_Y'
+[2025-04-02 12:26:26.368] [warning] Marker LKJC in thigh_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.368] [warning] Marker LHJC in thigh_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.368] [info] Measurement 'thigh_l_XZ'
+[2025-04-02 12:26:26.368] [warning] Marker LMFC in thigh_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.368] [warning] Marker LLFC in thigh_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.368] [info] Measurement 'shank_l_Y'
+[2025-04-02 12:26:26.368] [warning] Marker LKJC in shank_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.368] [warning] Marker LAJC in shank_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.368] [info] Measurement 'shank_l_XZ'
+[2025-04-02 12:26:26.368] [warning] Marker LMFC in shank_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.368] [warning] Marker LLFC in shank_l_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:26:26.368] [info] Measurement 'foot_l'
+[2025-04-02 12:26:26.368] [info] 	pair 0 (LHEE, LMT1): model = 0.220323, experimental = 0.221027
+[2025-04-02 12:26:26.368] [info] 	overall scale factor = 1.00320
+[2025-04-02 12:26:26.494] [info] Loaded marker file C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:27:52.297] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:27:52.297] [warning] Marker RKJC in thigh_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:28:49.777] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:28:49.777] [info] 	pair 0 (RASI, RLFC): model = 0.532321, experimental = 0.494947
+[2025-04-02 12:28:49.777] [info] 	overall scale factor = 0.929791
+[2025-04-02 12:29:03.652] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:29:03.652] [info] 	pair 0 (LSACR, LASI): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:29:03.652] [warning] Marker RHJC in Pelvis_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:29:08.347] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:29:08.347] [info] 	pair 0 (LSACR, LASI): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:29:08.347] [info] 	pair 1 (RSACR, RASI): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:29:08.347] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:29:11.307] [info] Measurement 'Pelvis_Z'
+[2025-04-02 12:29:11.307] [info] 	pair 0 (RASI, LASI): model = 0.243945, experimental = 0.214514
+[2025-04-02 12:29:11.307] [info] 	overall scale factor = 0.879356
+[2025-04-02 12:29:14.562] [info] Measurement 'shank_r_XZ'
+[2025-04-02 12:29:14.562] [warning] Marker RMFC in shank_r_XZ measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:29:22.521] [info] Measurement 'shank_r_XZ'
+[2025-04-02 12:29:22.521] [info] 	pair 0 (RLFC, RLFC): model = 0.0, experimental = 0.0
+[2025-04-02 12:29:22.521] [info] 	overall scale factor = -nan
+[2025-04-02 12:29:28.845] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:29:28.845] [warning] Marker RMMAL in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:29:28.845] [warning] Marker RKJC in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:29:32.511] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:29:32.511] [warning] Marker RMMAL in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:29:32.511] [warning] Marker RKJC in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:29:36.142] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:29:36.142] [warning] Marker RKJC in shank_r_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:29:40.116] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:29:40.116] [info] 	pair 0 (RLMAL, RLFC): model = 0.411319, experimental = 0.435642
+[2025-04-02 12:29:40.116] [info] 	overall scale factor = 1.05913
+[2025-04-02 12:29:50.527] [info] Measurement 'thigh_r_XZ'
+[2025-04-02 12:29:50.527] [info] 	pair 0 (RLFC, RLFC): model = 0.0, experimental = 0.0
+[2025-04-02 12:29:50.527] [info] 	overall scale factor = -nan
+[2025-04-02 12:30:07.423] [info] Measurement 'thigh_l_Y'
+[2025-04-02 12:30:07.423] [warning] Marker LLFC in thigh_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:30:07.423] [warning] Marker LHJC in thigh_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:30:13.249] [info] Measurement 'thigh_l_XZ'
+[2025-04-02 12:30:35.106] [info] Measurement 'thigh_l_Y'
+[2025-04-02 12:30:35.106] [warning] Marker LLFC in thigh_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:30:35.106] [warning] Marker LHJC in thigh_l_Y measurement not found in C:\Git\research_data\Projects\squatting_fais\models\..\c3dfiles\009\SJ\SJ_post1.trc.
+[2025-04-02 12:32:09.403] [info] Measurement 'upperarm_l_Y'
+[2025-04-02 12:32:09.403] [info] 	pair 0 (LSHO, LLEP): model = 0.36913, experimental = 0.381321
+[2025-04-02 12:32:09.403] [info] 	pair 1 (LSHO, LMEP): model = 0.370850, experimental = 0.389387
+[2025-04-02 12:32:09.403] [info] 	overall scale factor = 1.04151
+[2025-04-02 12:32:09.403] [info] Measurement 'upperarm_l_XZ'
+[2025-04-02 12:32:09.404] [info] 	pair 0 (LMEP, LLEP): model = 0.0971668, experimental = 0.079759
+[2025-04-02 12:32:09.404] [info] 	overall scale factor = 0.820845
+[2025-04-02 12:32:09.404] [info] Measurement 'lowerarm_l_Y'
+[2025-04-02 12:32:09.404] [info] 	pair 0 (LMEP, LUL): model = 0.258051, experimental = 0.261782
+[2025-04-02 12:32:09.404] [info] 	pair 1 (LLEP, LRAD): model = 0.264862, experimental = 0.260445
+[2025-04-02 12:32:09.404] [info] 	overall scale factor = 0.998893
+[2025-04-02 12:32:09.404] [info] Measurement 'lowerarm_l_XZ'
+[2025-04-02 12:32:09.404] [info] 	pair 0 (LRAD, LUL): model = 0.0715567, experimental = 0.0750493
+[2025-04-02 12:32:09.404] [info] 	pair 1 (LLEP, LMEP): model = 0.0971668, experimental = 0.079759
+[2025-04-02 12:32:09.404] [info] 	overall scale factor = 0.934827
+[2025-04-02 12:32:09.404] [info] Measurement 'hand_l_XYZ'
+[2025-04-02 12:32:09.404] [info] 	pair 0 (LRFIN, LRAD): model = 0.0914175, experimental = 0.0859444
+[2025-04-02 12:32:09.404] [info] 	pair 1 (LUL, LRAD): model = 0.0715567, experimental = 0.0750493
+[2025-04-02 12:32:09.404] [info] 	overall scale factor = 0.994469
+[2025-04-02 12:32:09.404] [info] Measurement 'upperarm_r_Y'
+[2025-04-02 12:32:09.404] [info] 	pair 0 (RSHO, RLEP): model = 0.369453, experimental = 0.379701
+[2025-04-02 12:32:09.404] [info] 	overall scale factor = 1.02774
+[2025-04-02 12:32:09.404] [info] Measurement 'upperarm_r_XZ'
+[2025-04-02 12:32:09.404] [info] 	pair 0 (RMEP, RLEP): model = 0.0977635, experimental = 0.0749685
+[2025-04-02 12:32:09.404] [info] 	overall scale factor = 0.766835
+[2025-04-02 12:32:09.404] [info] Measurement 'lowerarm_r_Y'
+[2025-04-02 12:32:09.404] [info] 	pair 0 (RMEP, RUL): model = 0.263703, experimental = 0.269652
+[2025-04-02 12:32:09.404] [info] 	pair 1 (RLEP, RRAD): model = 0.267374, experimental = 0.264991
+[2025-04-02 12:32:09.404] [info] 	overall scale factor = 1.00682
+[2025-04-02 12:32:09.404] [info] Measurement 'lowerarm_r_XZ'
+[2025-04-02 12:32:09.404] [info] 	pair 0 (RRAD, RUL): model = 0.0719501, experimental = 0.0691482
+[2025-04-02 12:32:09.405] [info] 	pair 1 (RLEP, RMEP): model = 0.0977635, experimental = 0.0749685
+[2025-04-02 12:32:09.405] [info] 	overall scale factor = 0.863946
+[2025-04-02 12:32:09.405] [info] Measurement 'hand_r_XYZ'
+[2025-04-02 12:32:09.405] [info] 	pair 0 (RUFIN, RRAD): model = 0.0991813, experimental = 0.0694859
+[2025-04-02 12:32:09.405] [info] 	pair 1 (RUL, RRAD): model = 0.0719501, experimental = 0.0691482
+[2025-04-02 12:32:09.405] [info] 	overall scale factor = 0.830826
+[2025-04-02 12:32:09.405] [info] Measurement 'torso_Y'
+[2025-04-02 12:32:09.405] [info] 	pair 0 (LSHO, LSACR): model = 0.463489, experimental = 0.474697
+[2025-04-02 12:32:09.405] [info] 	pair 1 (RSHO, RSACR): model = 0.464616, experimental = 0.468446
+[2025-04-02 12:32:09.405] [info] 	overall scale factor = 1.01621
+[2025-04-02 12:32:09.405] [info] Measurement 'torso_Z'
+[2025-04-02 12:32:09.405] [info] 	pair 0 (RSHO, LSHO): model = 0.293763, experimental = 0.311243
+[2025-04-02 12:32:09.405] [info] 	overall scale factor = 1.05951
+[2025-04-02 12:32:09.405] [info] Measurement 'Pelvis_X'
+[2025-04-02 12:32:09.405] [info] 	pair 0 (RASI, RSACR): model = 0.204146, experimental = 0.205088
+[2025-04-02 12:32:09.405] [info] 	pair 1 (LASI, LSACR): model = 0.206506, experimental = 0.212602
+[2025-04-02 12:32:09.405] [info] 	overall scale factor = 1.01706
+[2025-04-02 12:32:09.405] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:32:09.405] [info] 	pair 0 (LSACR, LASI): model = 0.206506, experimental = 0.212602
+[2025-04-02 12:32:09.405] [info] 	pair 1 (RSACR, RASI): model = 0.204146, experimental = 0.205088
+[2025-04-02 12:32:09.405] [info] 	overall scale factor = 1.01706
+[2025-04-02 12:32:09.405] [info] Measurement 'Pelvis_Z'
+[2025-04-02 12:32:09.405] [info] 	pair 0 (RASI, LASI): model = 0.243945, experimental = 0.215053
+[2025-04-02 12:32:09.405] [info] 	overall scale factor = 0.881565
+[2025-04-02 12:32:09.405] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:32:09.406] [info] 	pair 0 (RASI, RLFC): model = 0.532321, experimental = 0.495028
+[2025-04-02 12:32:09.406] [info] 	overall scale factor = 0.929942
+[2025-04-02 12:32:09.406] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:32:09.406] [info] 	pair 0 (RLMAL, RLFC): model = 0.411319, experimental = 0.435695
+[2025-04-02 12:32:09.406] [info] 	overall scale factor = 1.05926
+[2025-04-02 12:32:09.406] [info] Measurement 'foot_r_XYZ'
+[2025-04-02 12:32:09.406] [info] 	pair 0 (RHEE, RMT1): model = 0.219838, experimental = 0.223388
+[2025-04-02 12:32:09.406] [info] 	pair 1 (RMT2, RMT1): model = 0.043732, experimental = 0.0424801
+[2025-04-02 12:32:09.406] [info] 	overall scale factor = 0.99376
+[2025-04-02 12:32:09.406] [info] Measurement 'foot_l'
+[2025-04-02 12:32:09.406] [info] 	pair 0 (LHEE, LMT1): model = 0.220323, experimental = 0.220956
+[2025-04-02 12:32:09.406] [info] 	overall scale factor = 1.00287
+[2025-04-02 12:32:21.931] [info] Loaded marker file C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:32:21.932] [info] Measurement 'upperarm_l_Y'
+[2025-04-02 12:32:21.932] [info] 	pair 0 (LSHO, LLEP): model = 0.36913, experimental = 0.381374
+[2025-04-02 12:32:21.932] [info] 	pair 1 (LSHO, LMEP): model = 0.370850, experimental = 0.389561
+[2025-04-02 12:32:21.932] [info] 	overall scale factor = 1.04181
+[2025-04-02 12:32:21.932] [info] Measurement 'upperarm_l_XZ'
+[2025-04-02 12:32:21.932] [info] 	pair 0 (LMEP, LLEP): model = 0.0971668, experimental = 0.0798017
+[2025-04-02 12:32:21.932] [info] 	overall scale factor = 0.821286
+[2025-04-02 12:32:21.932] [info] Measurement 'lowerarm_l_Y'
+[2025-04-02 12:32:21.932] [info] 	pair 0 (LMEP, LUL): model = 0.258051, experimental = 0.261926
+[2025-04-02 12:32:21.932] [info] 	pair 1 (LLEP, LRAD): model = 0.264862, experimental = 0.260269
+[2025-04-02 12:32:21.932] [info] 	overall scale factor = 0.998839
+[2025-04-02 12:32:21.932] [info] Measurement 'lowerarm_l_XZ'
+[2025-04-02 12:32:21.932] [info] 	pair 0 (LRAD, LUL): model = 0.0715567, experimental = 0.0750314
+[2025-04-02 12:32:21.932] [info] 	pair 1 (LLEP, LMEP): model = 0.0971668, experimental = 0.0798017
+[2025-04-02 12:32:21.932] [info] 	overall scale factor = 0.934922
+[2025-04-02 12:32:21.932] [info] Measurement 'hand_l_XYZ'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (LRFIN, LRAD): model = 0.0914175, experimental = 0.0857299
+[2025-04-02 12:32:21.933] [info] 	pair 1 (LUL, LRAD): model = 0.0715567, experimental = 0.0750314
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 0.993171
+[2025-04-02 12:32:21.933] [info] Measurement 'upperarm_r_Y'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (RSHO, RLEP): model = 0.369453, experimental = 0.379686
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 1.0277
+[2025-04-02 12:32:21.933] [info] Measurement 'upperarm_r_XZ'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (RMEP, RLEP): model = 0.0977635, experimental = 0.0750721
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 0.767895
+[2025-04-02 12:32:21.933] [info] Measurement 'lowerarm_r_Y'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (RMEP, RUL): model = 0.263703, experimental = 0.269653
+[2025-04-02 12:32:21.933] [info] 	pair 1 (RLEP, RRAD): model = 0.267374, experimental = 0.264949
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 1.00675
+[2025-04-02 12:32:21.933] [info] Measurement 'lowerarm_r_XZ'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (RRAD, RUL): model = 0.0719501, experimental = 0.0690179
+[2025-04-02 12:32:21.933] [info] 	pair 1 (RLEP, RMEP): model = 0.0977635, experimental = 0.0750721
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 0.86357
+[2025-04-02 12:32:21.933] [info] Measurement 'hand_r_XYZ'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (RUFIN, RRAD): model = 0.0991813, experimental = 0.0694128
+[2025-04-02 12:32:21.933] [info] 	pair 1 (RUL, RRAD): model = 0.0719501, experimental = 0.0690179
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 0.829551
+[2025-04-02 12:32:21.933] [info] Measurement 'torso_Y'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (LSHO, LSACR): model = 0.463489, experimental = 0.4746
+[2025-04-02 12:32:21.933] [info] 	pair 1 (RSHO, RSACR): model = 0.464616, experimental = 0.468121
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 1.01576
+[2025-04-02 12:32:21.933] [info] Measurement 'torso_Z'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (RSHO, LSHO): model = 0.293763, experimental = 0.311296
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 1.05968
+[2025-04-02 12:32:21.933] [info] Measurement 'Pelvis_X'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (RASI, RSACR): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:32:21.933] [info] 	pair 1 (LASI, LSACR): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:32:21.933] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (LSACR, LASI): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:32:21.933] [info] 	pair 1 (RSACR, RASI): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:32:21.933] [info] Measurement 'Pelvis_Z'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (RASI, LASI): model = 0.243945, experimental = 0.214514
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 0.879356
+[2025-04-02 12:32:21.933] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (RASI, RLFC): model = 0.532321, experimental = 0.494947
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 0.929791
+[2025-04-02 12:32:21.933] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (RLMAL, RLFC): model = 0.411319, experimental = 0.435642
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 1.05913
+[2025-04-02 12:32:21.933] [info] Measurement 'foot_r_XYZ'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (RHEE, RMT1): model = 0.219838, experimental = 0.223396
+[2025-04-02 12:32:21.933] [info] 	pair 1 (RMT2, RMT1): model = 0.043732, experimental = 0.0426801
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 0.996067
+[2025-04-02 12:32:21.933] [info] Measurement 'foot_l'
+[2025-04-02 12:32:21.933] [info] 	pair 0 (LHEE, LMT1): model = 0.220323, experimental = 0.221027
+[2025-04-02 12:32:21.933] [info] 	overall scale factor = 1.00320
+[2025-04-02 12:32:22.063] [info] Loaded marker file C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:32:28.228] [info] Loaded marker file C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:32:28.229] [info] Measurement 'upperarm_l_Y'
+[2025-04-02 12:32:28.229] [info] 	pair 0 (LSHO, LLEP): model = 0.36913, experimental = 0.381374
+[2025-04-02 12:32:28.229] [info] 	pair 1 (LSHO, LMEP): model = 0.370850, experimental = 0.389561
+[2025-04-02 12:32:28.229] [info] 	overall scale factor = 1.04181
+[2025-04-02 12:32:28.229] [info] Measurement 'upperarm_l_XZ'
+[2025-04-02 12:32:28.229] [info] 	pair 0 (LMEP, LLEP): model = 0.0971668, experimental = 0.0798017
+[2025-04-02 12:32:28.229] [info] 	overall scale factor = 0.821286
+[2025-04-02 12:32:28.229] [info] Measurement 'lowerarm_l_Y'
+[2025-04-02 12:32:28.229] [info] 	pair 0 (LMEP, LUL): model = 0.258051, experimental = 0.261926
+[2025-04-02 12:32:28.229] [info] 	pair 1 (LLEP, LRAD): model = 0.264862, experimental = 0.260269
+[2025-04-02 12:32:28.229] [info] 	overall scale factor = 0.998839
+[2025-04-02 12:32:28.229] [info] Measurement 'lowerarm_l_XZ'
+[2025-04-02 12:32:28.229] [info] 	pair 0 (LRAD, LUL): model = 0.0715567, experimental = 0.0750314
+[2025-04-02 12:32:28.229] [info] 	pair 1 (LLEP, LMEP): model = 0.0971668, experimental = 0.0798017
+[2025-04-02 12:32:28.229] [info] 	overall scale factor = 0.934922
+[2025-04-02 12:32:28.229] [info] Measurement 'hand_l_XYZ'
+[2025-04-02 12:32:28.229] [info] 	pair 0 (LRFIN, LRAD): model = 0.0914175, experimental = 0.0857299
+[2025-04-02 12:32:28.229] [info] 	pair 1 (LUL, LRAD): model = 0.0715567, experimental = 0.0750314
+[2025-04-02 12:32:28.229] [info] 	overall scale factor = 0.993171
+[2025-04-02 12:32:28.229] [info] Measurement 'upperarm_r_Y'
+[2025-04-02 12:32:28.229] [info] 	pair 0 (RSHO, RLEP): model = 0.369453, experimental = 0.379686
+[2025-04-02 12:32:28.229] [info] 	overall scale factor = 1.0277
+[2025-04-02 12:32:28.229] [info] Measurement 'upperarm_r_XZ'
+[2025-04-02 12:32:28.229] [info] 	pair 0 (RMEP, RLEP): model = 0.0977635, experimental = 0.0750721
+[2025-04-02 12:32:28.229] [info] 	overall scale factor = 0.767895
+[2025-04-02 12:32:28.229] [info] Measurement 'lowerarm_r_Y'
+[2025-04-02 12:32:28.229] [info] 	pair 0 (RMEP, RUL): model = 0.263703, experimental = 0.269653
+[2025-04-02 12:32:28.229] [info] 	pair 1 (RLEP, RRAD): model = 0.267374, experimental = 0.264949
+[2025-04-02 12:32:28.229] [info] 	overall scale factor = 1.00675
+[2025-04-02 12:32:28.229] [info] Measurement 'lowerarm_r_XZ'
+[2025-04-02 12:32:28.229] [info] 	pair 0 (RRAD, RUL): model = 0.0719501, experimental = 0.0690179
+[2025-04-02 12:32:28.229] [info] 	pair 1 (RLEP, RMEP): model = 0.0977635, experimental = 0.0750721
+[2025-04-02 12:32:28.229] [info] 	overall scale factor = 0.86357
+[2025-04-02 12:32:28.229] [info] Measurement 'hand_r_XYZ'
+[2025-04-02 12:32:28.229] [info] 	pair 0 (RUFIN, RRAD): model = 0.0991813, experimental = 0.0694128
+[2025-04-02 12:32:28.229] [info] 	pair 1 (RUL, RRAD): model = 0.0719501, experimental = 0.0690179
+[2025-04-02 12:32:28.229] [info] 	overall scale factor = 0.829551
+[2025-04-02 12:32:28.229] [info] Measurement 'torso_Y'
+[2025-04-02 12:32:28.229] [info] 	pair 0 (LSHO, LSACR): model = 0.463489, experimental = 0.4746
+[2025-04-02 12:32:28.229] [info] 	pair 1 (RSHO, RSACR): model = 0.464616, experimental = 0.468121
+[2025-04-02 12:32:28.229] [info] 	overall scale factor = 1.01576
+[2025-04-02 12:32:28.230] [info] Measurement 'torso_Z'
+[2025-04-02 12:32:28.230] [info] 	pair 0 (RSHO, LSHO): model = 0.293763, experimental = 0.311296
+[2025-04-02 12:32:28.230] [info] 	overall scale factor = 1.05968
+[2025-04-02 12:32:28.230] [info] Measurement 'Pelvis_X'
+[2025-04-02 12:32:28.230] [info] 	pair 0 (RASI, RSACR): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:32:28.230] [info] 	pair 1 (LASI, LSACR): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:32:28.230] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:32:28.230] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:32:28.230] [info] 	pair 0 (LSACR, LASI): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:32:28.230] [info] 	pair 1 (RSACR, RASI): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:32:28.230] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:32:28.230] [info] Measurement 'Pelvis_Z'
+[2025-04-02 12:32:28.230] [info] 	pair 0 (RASI, LASI): model = 0.243945, experimental = 0.214514
+[2025-04-02 12:32:28.230] [info] 	overall scale factor = 0.879356
+[2025-04-02 12:32:28.230] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:32:28.230] [info] 	pair 0 (RASI, RLFC): model = 0.532321, experimental = 0.494947
+[2025-04-02 12:32:28.230] [info] 	overall scale factor = 0.929791
+[2025-04-02 12:32:28.230] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:32:28.230] [info] 	pair 0 (RLMAL, RLFC): model = 0.411319, experimental = 0.435642
+[2025-04-02 12:32:28.230] [info] 	overall scale factor = 1.05913
+[2025-04-02 12:32:28.230] [info] Measurement 'foot_r_XYZ'
+[2025-04-02 12:32:28.230] [info] 	pair 0 (RHEE, RMT1): model = 0.219838, experimental = 0.223396
+[2025-04-02 12:32:28.230] [info] 	pair 1 (RMT2, RMT1): model = 0.043732, experimental = 0.0426801
+[2025-04-02 12:32:28.230] [info] 	overall scale factor = 0.996067
+[2025-04-02 12:32:28.230] [info] Measurement 'foot_l'
+[2025-04-02 12:32:28.230] [info] 	pair 0 (LHEE, LMT1): model = 0.220323, experimental = 0.221027
+[2025-04-02 12:32:28.230] [info] 	overall scale factor = 1.00320
+[2025-04-02 12:32:28.358] [info] Loaded marker file C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:32:51.166] [info] Step 2: Scaling generic model
+[2025-04-02 12:32:51.315] [info] Loaded marker file C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:32:51.316] [info] Measurement 'upperarm_l_Y'
+[2025-04-02 12:32:51.316] [info] 	pair 0 (LSHO, LLEP): model = 0.36913, experimental = 0.381374
+[2025-04-02 12:32:51.316] [info] 	pair 1 (LSHO, LMEP): model = 0.370850, experimental = 0.389561
+[2025-04-02 12:32:51.316] [info] 	overall scale factor = 1.04181
+[2025-04-02 12:32:51.316] [info] Measurement 'lowerarm_l_Y'
+[2025-04-02 12:32:51.316] [info] 	pair 0 (LMEP, LUL): model = 0.258051, experimental = 0.261926
+[2025-04-02 12:32:51.316] [info] 	pair 1 (LLEP, LRAD): model = 0.264862, experimental = 0.260269
+[2025-04-02 12:32:51.316] [info] 	overall scale factor = 0.998839
+[2025-04-02 12:32:51.316] [info] Measurement 'hand_l_XYZ'
+[2025-04-02 12:32:51.316] [info] 	pair 0 (LRFIN, LRAD): model = 0.0914175, experimental = 0.0857299
+[2025-04-02 12:32:51.316] [info] 	pair 1 (LUL, LRAD): model = 0.0715567, experimental = 0.0750314
+[2025-04-02 12:32:51.316] [info] 	overall scale factor = 0.993171
+[2025-04-02 12:32:51.316] [info] Measurement 'upperarm_r_Y'
+[2025-04-02 12:32:51.316] [info] 	pair 0 (RSHO, RLEP): model = 0.369453, experimental = 0.379686
+[2025-04-02 12:32:51.317] [info] 	overall scale factor = 1.0277
+[2025-04-02 12:32:51.317] [info] Measurement 'lowerarm_r_Y'
+[2025-04-02 12:32:51.317] [info] 	pair 0 (RMEP, RUL): model = 0.263703, experimental = 0.269653
+[2025-04-02 12:32:51.317] [info] 	pair 1 (RLEP, RRAD): model = 0.267374, experimental = 0.264949
+[2025-04-02 12:32:51.317] [info] 	overall scale factor = 1.00675
+[2025-04-02 12:32:51.317] [info] Measurement 'torso_Y'
+[2025-04-02 12:32:51.317] [info] 	pair 0 (LSHO, LSACR): model = 0.463489, experimental = 0.4746
+[2025-04-02 12:32:51.317] [info] 	pair 1 (RSHO, RSACR): model = 0.464616, experimental = 0.468121
+[2025-04-02 12:32:51.317] [info] 	overall scale factor = 1.01576
+[2025-04-02 12:32:51.317] [info] Measurement 'Pelvis_X'
+[2025-04-02 12:32:51.317] [info] 	pair 0 (RASI, RSACR): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:32:51.317] [info] 	pair 1 (LASI, LSACR): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:32:51.317] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:32:51.317] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:32:51.317] [info] 	pair 0 (LSACR, LASI): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:32:51.317] [info] 	pair 1 (RSACR, RASI): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:32:51.317] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:32:51.317] [info] Measurement 'Pelvis_Z'
+[2025-04-02 12:32:51.317] [info] 	pair 0 (RASI, LASI): model = 0.243945, experimental = 0.214514
+[2025-04-02 12:32:51.317] [info] 	overall scale factor = 0.879356
+[2025-04-02 12:32:51.317] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:32:51.317] [info] 	pair 0 (RASI, RLFC): model = 0.532321, experimental = 0.494947
+[2025-04-02 12:32:51.317] [info] 	overall scale factor = 0.929791
+[2025-04-02 12:32:51.317] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:32:51.317] [info] 	pair 0 (RLMAL, RLFC): model = 0.411319, experimental = 0.435642
+[2025-04-02 12:32:51.317] [info] 	overall scale factor = 1.05913
+[2025-04-02 12:32:51.317] [info] Measurement 'foot_r_XYZ'
+[2025-04-02 12:32:51.317] [info] 	pair 0 (RHEE, RMT1): model = 0.219838, experimental = 0.223396
+[2025-04-02 12:32:51.317] [info] 	pair 1 (RMT2, RMT1): model = 0.043732, experimental = 0.0426801
+[2025-04-02 12:32:51.317] [info] 	overall scale factor = 0.996067
+[2025-04-02 12:32:51.317] [info] Measurement 'foot_l'
+[2025-04-02 12:32:51.317] [info] 	pair 0 (LHEE, LMT1): model = 0.220323, experimental = 0.221027
+[2025-04-02 12:32:51.317] [info] 	overall scale factor = 1.00320
+[2025-04-02 12:32:51.387] [info] Wrote scale file 'C:\Git\research_data\Projects\squatting_fais\setupFiles\.\Scale_output.xml' for model 009.
+[2025-04-02 12:32:51.388] [info] Step 3: Placing markers on model
+[2025-04-02 12:32:52.715] [info] Loaded marker file C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:32:52.717] [info] Averaged frames from time 0.0 to 0.05 in C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc (frames 1 to 11)
+[2025-04-02 12:32:52.718] [info] Deleted 12 unused markers from model 009.
+[2025-04-02 12:32:52.865] [info] Frame at (t = 0.0):	 total squared error = 0.0918733, marker error: RMS = 0.0535821, max = 0.175335 (RBHD)
+[2025-04-02 12:32:52.865] [info] Moved markers in model 009 to match locations in marker file 'C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc'.
+[2025-04-02 12:32:52.894] [info] Wrote model file 'C:\Git\research_data\Projects\squatting_fais\setupFiles\..\009_Rajagopal2015_FAI.osim' from model 009.
+[2025-04-02 12:33:15.086] [info] Step 2: Scaling generic model
+[2025-04-02 12:33:15.237] [info] Loaded marker file C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:33:15.238] [info] Measurement 'upperarm_l_Y'
+[2025-04-02 12:33:15.238] [info] 	pair 0 (LSHO, LLEP): model = 0.36913, experimental = 0.381374
+[2025-04-02 12:33:15.238] [info] 	pair 1 (LSHO, LMEP): model = 0.370850, experimental = 0.389561
+[2025-04-02 12:33:15.238] [info] 	overall scale factor = 1.04181
+[2025-04-02 12:33:15.238] [info] Measurement 'lowerarm_l_Y'
+[2025-04-02 12:33:15.238] [info] 	pair 0 (LMEP, LUL): model = 0.258051, experimental = 0.261926
+[2025-04-02 12:33:15.238] [info] 	pair 1 (LLEP, LRAD): model = 0.264862, experimental = 0.260269
+[2025-04-02 12:33:15.238] [info] 	overall scale factor = 0.998839
+[2025-04-02 12:33:15.238] [info] Measurement 'hand_l_XYZ'
+[2025-04-02 12:33:15.238] [info] 	pair 0 (LRFIN, LRAD): model = 0.0914175, experimental = 0.0857299
+[2025-04-02 12:33:15.238] [info] 	pair 1 (LUL, LRAD): model = 0.0715567, experimental = 0.0750314
+[2025-04-02 12:33:15.239] [info] 	overall scale factor = 0.993171
+[2025-04-02 12:33:15.239] [info] Measurement 'upperarm_r_Y'
+[2025-04-02 12:33:15.239] [info] 	pair 0 (RSHO, RLEP): model = 0.369453, experimental = 0.379686
+[2025-04-02 12:33:15.239] [info] 	overall scale factor = 1.0277
+[2025-04-02 12:33:15.239] [info] Measurement 'lowerarm_r_Y'
+[2025-04-02 12:33:15.239] [info] 	pair 0 (RMEP, RUL): model = 0.263703, experimental = 0.269653
+[2025-04-02 12:33:15.239] [info] 	pair 1 (RLEP, RRAD): model = 0.267374, experimental = 0.264949
+[2025-04-02 12:33:15.239] [info] 	overall scale factor = 1.00675
+[2025-04-02 12:33:15.239] [info] Measurement 'torso_Y'
+[2025-04-02 12:33:15.239] [info] 	pair 0 (LSHO, LSACR): model = 0.463489, experimental = 0.4746
+[2025-04-02 12:33:15.239] [info] 	pair 1 (RSHO, RSACR): model = 0.464616, experimental = 0.468121
+[2025-04-02 12:33:15.239] [info] 	overall scale factor = 1.01576
+[2025-04-02 12:33:15.239] [info] Measurement 'Pelvis_X'
+[2025-04-02 12:33:15.239] [info] 	pair 0 (RASI, RSACR): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:33:15.239] [info] 	pair 1 (LASI, LSACR): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:33:15.239] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:33:15.239] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:33:15.239] [info] 	pair 0 (LSACR, LASI): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:33:15.239] [info] 	pair 1 (RSACR, RASI): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:33:15.239] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:33:15.239] [info] Measurement 'Pelvis_Z'
+[2025-04-02 12:33:15.239] [info] 	pair 0 (RASI, LASI): model = 0.243945, experimental = 0.214514
+[2025-04-02 12:33:15.239] [info] 	overall scale factor = 0.879356
+[2025-04-02 12:33:15.239] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:33:15.239] [info] 	pair 0 (RASI, RLFC): model = 0.532321, experimental = 0.494947
+[2025-04-02 12:33:15.239] [info] 	overall scale factor = 0.929791
+[2025-04-02 12:33:15.239] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:33:15.239] [info] 	pair 0 (RLMAL, RLFC): model = 0.411319, experimental = 0.435642
+[2025-04-02 12:33:15.239] [info] 	overall scale factor = 1.05913
+[2025-04-02 12:33:15.239] [info] Measurement 'foot_r_XYZ'
+[2025-04-02 12:33:15.239] [info] 	pair 0 (RHEE, RMT1): model = 0.219838, experimental = 0.223396
+[2025-04-02 12:33:15.239] [info] 	pair 1 (RMT2, RMT1): model = 0.043732, experimental = 0.0426801
+[2025-04-02 12:33:15.239] [info] 	overall scale factor = 0.996067
+[2025-04-02 12:33:15.239] [info] Measurement 'foot_l'
+[2025-04-02 12:33:15.239] [info] 	pair 0 (LHEE, LMT1): model = 0.220323, experimental = 0.221027
+[2025-04-02 12:33:15.239] [info] 	overall scale factor = 1.00320
+[2025-04-02 12:33:15.309] [info] Wrote scale file 'C:\Git\research_data\Projects\squatting_fais\setupFiles\.\Scale_output.xml' for model 009.
+[2025-04-02 12:33:15.310] [info] Step 3: Placing markers on model
+[2025-04-02 12:33:16.522] [info] Loaded marker file C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:33:16.523] [info] Averaged frames from time 0.0 to 0.05 in C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc (frames 1 to 11)
+[2025-04-02 12:33:16.523] [info] Deleted 12 unused markers from model 009.
+[2025-04-02 12:33:16.644] [info] Frame at (t = 0.0):	 total squared error = 0.0918733, marker error: RMS = 0.0535821, max = 0.175335 (RBHD)
+[2025-04-02 12:33:16.644] [info] Moved markers in model 009 to match locations in marker file 'C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc'.
+[2025-04-02 12:33:16.675] [info] Wrote model file 'C:\Git\research_data\Projects\squatting_fais\setupFiles\..\009_Rajagopal2015_FAI.osim' from model 009.
+[2025-04-02 12:33:50.324] [info] Measurement 'upperarm_l_Y'
+[2025-04-02 12:33:50.324] [info] 	pair 0 (LSHO, LLEP): model = 0.36913, experimental = 0.380935
+[2025-04-02 12:33:50.324] [info] 	pair 1 (LSHO, LMEP): model = 0.370850, experimental = 0.389044
+[2025-04-02 12:33:50.324] [info] 	overall scale factor = 1.04052
+[2025-04-02 12:33:50.324] [info] Measurement 'upperarm_l_XZ'
+[2025-04-02 12:33:50.324] [info] 	pair 0 (LMEP, LLEP): model = 0.0971668, experimental = 0.0797637
+[2025-04-02 12:33:50.324] [info] 	overall scale factor = 0.820895
+[2025-04-02 12:33:50.324] [info] Measurement 'lowerarm_l_Y'
+[2025-04-02 12:33:50.324] [info] 	pair 0 (LMEP, LUL): model = 0.258051, experimental = 0.260326
+[2025-04-02 12:33:50.324] [info] 	pair 1 (LLEP, LRAD): model = 0.264862, experimental = 0.263657
+[2025-04-02 12:33:50.324] [info] 	overall scale factor = 1.00213
+[2025-04-02 12:33:50.324] [info] Measurement 'lowerarm_l_XZ'
+[2025-04-02 12:33:50.324] [info] 	pair 0 (LRAD, LUL): model = 0.0715567, experimental = 0.074788
+[2025-04-02 12:33:50.324] [info] 	pair 1 (LLEP, LMEP): model = 0.0971668, experimental = 0.0797637
+[2025-04-02 12:33:50.324] [info] 	overall scale factor = 0.933026
+[2025-04-02 12:33:50.324] [info] Measurement 'hand_l_XYZ'
+[2025-04-02 12:33:50.325] [info] 	pair 0 (LRFIN, LRAD): model = 0.0914175, experimental = 0.0864067
+[2025-04-02 12:33:50.325] [info] 	pair 1 (LUL, LRAD): model = 0.0715567, experimental = 0.074788
+[2025-04-02 12:33:50.325] [info] 	overall scale factor = 0.995172
+[2025-04-02 12:33:50.325] [info] Measurement 'upperarm_r_Y'
+[2025-04-02 12:33:50.325] [info] 	pair 0 (RSHO, RLEP): model = 0.369453, experimental = 0.379548
+[2025-04-02 12:33:50.325] [info] 	overall scale factor = 1.02732
+[2025-04-02 12:33:50.325] [info] Measurement 'upperarm_r_XZ'
+[2025-04-02 12:33:50.325] [info] 	pair 0 (RMEP, RLEP): model = 0.0977635, experimental = 0.0747272
+[2025-04-02 12:33:50.325] [info] 	overall scale factor = 0.764367
+[2025-04-02 12:33:50.325] [info] Measurement 'lowerarm_r_Y'
+[2025-04-02 12:33:50.325] [info] 	pair 0 (RMEP, RUL): model = 0.263703, experimental = 0.269617
+[2025-04-02 12:33:50.325] [info] 	pair 1 (RLEP, RRAD): model = 0.267374, experimental = 0.265021
+[2025-04-02 12:33:50.325] [info] 	overall scale factor = 1.00681
+[2025-04-02 12:33:50.325] [info] Measurement 'lowerarm_r_XZ'
+[2025-04-02 12:33:50.325] [info] 	pair 0 (RRAD, RUL): model = 0.0719501, experimental = 0.0692174
+[2025-04-02 12:33:50.325] [info] 	pair 1 (RLEP, RMEP): model = 0.0977635, experimental = 0.0747272
+[2025-04-02 12:33:50.325] [info] 	overall scale factor = 0.863193
+[2025-04-02 12:33:50.325] [info] Measurement 'hand_r_XYZ'
+[2025-04-02 12:33:50.325] [info] 	pair 0 (RUFIN, RRAD): model = 0.0991813, experimental = 0.0695236
+[2025-04-02 12:33:50.325] [info] 	pair 1 (RUL, RRAD): model = 0.0719501, experimental = 0.0692174
+[2025-04-02 12:33:50.325] [info] 	overall scale factor = 0.831497
+[2025-04-02 12:33:50.325] [info] Measurement 'torso_Y'
+[2025-04-02 12:33:50.325] [info] 	pair 0 (LSHO, LSACR): model = 0.463489, experimental = 0.479156
+[2025-04-02 12:33:50.325] [info] 	pair 1 (RSHO, RSACR): model = 0.464616, experimental = 0.470115
+[2025-04-02 12:33:50.325] [info] 	overall scale factor = 1.02282
+[2025-04-02 12:33:50.326] [info] Measurement 'torso_Z'
+[2025-04-02 12:33:50.326] [info] 	pair 0 (RSHO, LSHO): model = 0.293763, experimental = 0.3117
+[2025-04-02 12:33:50.326] [info] 	overall scale factor = 1.06106
+[2025-04-02 12:33:50.326] [info] Measurement 'Pelvis_X'
+[2025-04-02 12:33:50.326] [info] 	pair 0 (RASI, RSACR): model = 0.204146, experimental = 0.205062
+[2025-04-02 12:33:50.326] [info] 	pair 1 (LASI, LSACR): model = 0.206506, experimental = 0.21748
+[2025-04-02 12:33:50.326] [info] 	overall scale factor = 1.02881
+[2025-04-02 12:33:50.326] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:33:50.326] [info] 	pair 0 (LSACR, LASI): model = 0.206506, experimental = 0.21748
+[2025-04-02 12:33:50.326] [info] 	pair 1 (RSACR, RASI): model = 0.204146, experimental = 0.205062
+[2025-04-02 12:33:50.326] [info] 	overall scale factor = 1.02881
+[2025-04-02 12:33:50.326] [info] Measurement 'Pelvis_Z'
+[2025-04-02 12:33:50.326] [info] 	pair 0 (RASI, LASI): model = 0.243945, experimental = 0.218629
+[2025-04-02 12:33:50.326] [info] 	overall scale factor = 0.896223
+[2025-04-02 12:33:50.326] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:33:50.326] [info] 	pair 0 (RASI, RLFC): model = 0.532321, experimental = 0.495084
+[2025-04-02 12:33:50.326] [info] 	overall scale factor = 0.930048
+[2025-04-02 12:33:50.326] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:33:50.326] [info] 	pair 0 (RLMAL, RLFC): model = 0.411319, experimental = 0.435619
+[2025-04-02 12:33:50.326] [info] 	overall scale factor = 1.05908
+[2025-04-02 12:33:50.326] [info] Measurement 'foot_r_XYZ'
+[2025-04-02 12:33:50.326] [info] 	pair 0 (RHEE, RMT1): model = 0.219838, experimental = 0.22335
+[2025-04-02 12:33:50.326] [info] 	pair 1 (RMT2, RMT1): model = 0.043732, experimental = 0.0422493
+[2025-04-02 12:33:50.326] [info] 	overall scale factor = 0.991036
+[2025-04-02 12:33:50.326] [info] Measurement 'foot_l'
+[2025-04-02 12:33:50.326] [info] 	pair 0 (LHEE, LMT1): model = 0.220323, experimental = 0.220879
+[2025-04-02 12:33:50.326] [info] 	overall scale factor = 1.00252
+[2025-04-02 12:33:52.053] [info] Loaded marker file C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc (55 markers, 2773 frames)
+[2025-04-02 12:33:52.054] [info] Measurement 'upperarm_l_Y'
+[2025-04-02 12:33:52.054] [info] 	pair 0 (LSHO, LLEP): model = 0.36913, experimental = 0.381374
+[2025-04-02 12:33:52.054] [info] 	pair 1 (LSHO, LMEP): model = 0.370850, experimental = 0.389561
+[2025-04-02 12:33:52.054] [info] 	overall scale factor = 1.04181
+[2025-04-02 12:33:52.054] [info] Measurement 'upperarm_l_XZ'
+[2025-04-02 12:33:52.054] [info] 	pair 0 (LMEP, LLEP): model = 0.0971668, experimental = 0.0798017
+[2025-04-02 12:33:52.054] [info] 	overall scale factor = 0.821286
+[2025-04-02 12:33:52.054] [info] Measurement 'lowerarm_l_Y'
+[2025-04-02 12:33:52.054] [info] 	pair 0 (LMEP, LUL): model = 0.258051, experimental = 0.261926
+[2025-04-02 12:33:52.054] [info] 	pair 1 (LLEP, LRAD): model = 0.264862, experimental = 0.260269
+[2025-04-02 12:33:52.054] [info] 	overall scale factor = 0.998839
+[2025-04-02 12:33:52.054] [info] Measurement 'lowerarm_l_XZ'
+[2025-04-02 12:33:52.054] [info] 	pair 0 (LRAD, LUL): model = 0.0715567, experimental = 0.0750314
+[2025-04-02 12:33:52.054] [info] 	pair 1 (LLEP, LMEP): model = 0.0971668, experimental = 0.0798017
+[2025-04-02 12:33:52.054] [info] 	overall scale factor = 0.934922
+[2025-04-02 12:33:52.054] [info] Measurement 'hand_l_XYZ'
+[2025-04-02 12:33:52.054] [info] 	pair 0 (LRFIN, LRAD): model = 0.0914175, experimental = 0.0857299
+[2025-04-02 12:33:52.054] [info] 	pair 1 (LUL, LRAD): model = 0.0715567, experimental = 0.0750314
+[2025-04-02 12:33:52.054] [info] 	overall scale factor = 0.993171
+[2025-04-02 12:33:52.054] [info] Measurement 'upperarm_r_Y'
+[2025-04-02 12:33:52.054] [info] 	pair 0 (RSHO, RLEP): model = 0.369453, experimental = 0.379686
+[2025-04-02 12:33:52.054] [info] 	overall scale factor = 1.0277
+[2025-04-02 12:33:52.054] [info] Measurement 'upperarm_r_XZ'
+[2025-04-02 12:33:52.054] [info] 	pair 0 (RMEP, RLEP): model = 0.0977635, experimental = 0.0750721
+[2025-04-02 12:33:52.054] [info] 	overall scale factor = 0.767895
+[2025-04-02 12:33:52.054] [info] Measurement 'lowerarm_r_Y'
+[2025-04-02 12:33:52.054] [info] 	pair 0 (RMEP, RUL): model = 0.263703, experimental = 0.269653
+[2025-04-02 12:33:52.054] [info] 	pair 1 (RLEP, RRAD): model = 0.267374, experimental = 0.264949
+[2025-04-02 12:33:52.054] [info] 	overall scale factor = 1.00675
+[2025-04-02 12:33:52.054] [info] Measurement 'lowerarm_r_XZ'
+[2025-04-02 12:33:52.054] [info] 	pair 0 (RRAD, RUL): model = 0.0719501, experimental = 0.0690179
+[2025-04-02 12:33:52.054] [info] 	pair 1 (RLEP, RMEP): model = 0.0977635, experimental = 0.0750721
+[2025-04-02 12:33:52.054] [info] 	overall scale factor = 0.86357
+[2025-04-02 12:33:52.054] [info] Measurement 'hand_r_XYZ'
+[2025-04-02 12:33:52.054] [info] 	pair 0 (RUFIN, RRAD): model = 0.0991813, experimental = 0.0694128
+[2025-04-02 12:33:52.054] [info] 	pair 1 (RUL, RRAD): model = 0.0719501, experimental = 0.0690179
+[2025-04-02 12:33:52.054] [info] 	overall scale factor = 0.829551
+[2025-04-02 12:33:52.054] [info] Measurement 'torso_Y'
+[2025-04-02 12:33:52.054] [info] 	pair 0 (LSHO, LSACR): model = 0.463489, experimental = 0.4746
+[2025-04-02 12:33:52.055] [info] 	pair 1 (RSHO, RSACR): model = 0.464616, experimental = 0.468121
+[2025-04-02 12:33:52.055] [info] 	overall scale factor = 1.01576
+[2025-04-02 12:33:52.055] [info] Measurement 'torso_Z'
+[2025-04-02 12:33:52.055] [info] 	pair 0 (RSHO, LSHO): model = 0.293763, experimental = 0.311296
+[2025-04-02 12:33:52.055] [info] 	overall scale factor = 1.05968
+[2025-04-02 12:33:52.055] [info] Measurement 'Pelvis_X'
+[2025-04-02 12:33:52.055] [info] 	pair 0 (RASI, RSACR): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:33:52.055] [info] 	pair 1 (LASI, LSACR): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:33:52.055] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:33:52.055] [info] Measurement 'Pelvis_Y'
+[2025-04-02 12:33:52.055] [info] 	pair 0 (LSACR, LASI): model = 0.206506, experimental = 0.212109
+[2025-04-02 12:33:52.055] [info] 	pair 1 (RSACR, RASI): model = 0.204146, experimental = 0.205151
+[2025-04-02 12:33:52.055] [info] 	overall scale factor = 1.01603
+[2025-04-02 12:33:52.055] [info] Measurement 'Pelvis_Z'
+[2025-04-02 12:33:52.055] [info] 	pair 0 (RASI, LASI): model = 0.243945, experimental = 0.214514
+[2025-04-02 12:33:52.055] [info] 	overall scale factor = 0.879356
+[2025-04-02 12:33:52.055] [info] Measurement 'thigh_r_Y'
+[2025-04-02 12:33:52.055] [info] 	pair 0 (RASI, RLFC): model = 0.532321, experimental = 0.494947
+[2025-04-02 12:33:52.055] [info] 	overall scale factor = 0.929791
+[2025-04-02 12:33:52.055] [info] Measurement 'shank_r_Y'
+[2025-04-02 12:33:52.055] [info] 	pair 0 (RLMAL, RLFC): model = 0.411319, experimental = 0.435642
+[2025-04-02 12:33:52.055] [info] 	overall scale factor = 1.05913
+[2025-04-02 12:33:52.055] [info] Measurement 'foot_r_XYZ'
+[2025-04-02 12:33:52.055] [info] 	pair 0 (RHEE, RMT1): model = 0.219838, experimental = 0.223396
+[2025-04-02 12:33:52.055] [info] 	pair 1 (RMT2, RMT1): model = 0.043732, experimental = 0.0426801
+[2025-04-02 12:33:52.055] [info] 	overall scale factor = 0.996067
+[2025-04-02 12:33:52.055] [info] Measurement 'foot_l'
+[2025-04-02 12:33:52.055] [info] 	pair 0 (LHEE, LMT1): model = 0.220323, experimental = 0.221027
+[2025-04-02 12:33:52.055] [info] 	overall scale factor = 1.00320
+[2025-04-02 12:33:52.181] [info] Loaded marker file C:/Git/research_data/Projects/squatting_fais/models/../c3dfiles/009/SJ/SJ_post1.trc (55 markers, 2773 frames)
