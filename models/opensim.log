@@ -1,0 +1,664 @@
+[2025-04-02 12:20:30.903] [info] Updating Model file from 40000 to latest format...
+[2025-04-02 12:20:30.994] [info] Loaded model Rajagopal2016 from file C:\Git\research_data\Projects\squatting_fais\models\Rajagopal2016.osim
+[2025-04-02 12:20:31.036] [warning] Couldn't find file 'r_patella.vtp'.
+[2025-04-02 12:20:31.037] [warning] Couldn't find file 'r_talus.vtp'.
+[2025-04-02 12:20:31.037] [warning] Couldn't find file 'r_foot.vtp'.
+[2025-04-02 12:20:31.037] [warning] Couldn't find file 'r_bofoot.vtp'.
+[2025-04-02 12:20:31.059] [warning] Couldn't find file 'l_patella.vtp'.
+[2025-04-02 12:20:31.060] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-04-02 12:20:31.060] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-04-02 12:20:31.060] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-04-02 12:20:31.060] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-04-02 12:20:31.060] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-04-02 12:20:31.061] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-04-02 12:20:31.061] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2025-04-02 12:20:31.061] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2025-04-02 12:20:31.061] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2025-04-02 12:20:31.061] [warning] Couldn't find file 'radius_rv.vtp'.
+[2025-04-02 12:20:31.061] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2025-04-02 12:20:31.061] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2025-04-02 12:20:31.061] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2025-04-02 12:20:31.061] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2025-04-02 12:20:31.062] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2025-04-02 12:20:31.062] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2025-04-02 12:20:31.062] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2025-04-02 12:20:31.062] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2025-04-02 12:20:31.062] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2025-04-02 12:20:31.062] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2025-04-02 12:20:31.062] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2025-04-02 12:20:31.062] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2025-04-02 12:20:31.063] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2025-04-02 12:20:31.063] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2025-04-02 12:20:31.063] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2025-04-02 12:20:31.063] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2025-04-02 12:20:31.063] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2025-04-02 12:20:31.063] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2025-04-02 12:20:31.063] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2025-04-02 12:20:31.063] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2025-04-02 12:20:31.063] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2025-04-02 12:20:31.064] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2025-04-02 12:20:31.064] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2025-04-02 12:20:31.064] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2025-04-02 12:20:31.064] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2025-04-02 12:20:31.065] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2025-04-02 12:20:31.065] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2025-04-02 12:20:31.065] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2025-04-02 12:20:31.065] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2025-04-02 12:20:31.065] [warning] Couldn't find file 'radius_lv.vtp'.
+[2025-04-02 12:20:31.065] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2025-04-02 12:20:31.066] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2025-04-02 12:20:31.066] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2025-04-02 12:20:31.066] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2025-04-02 12:20:31.066] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2025-04-02 12:20:31.066] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2025-04-02 12:20:31.066] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2025-04-02 12:20:31.067] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2025-04-02 12:20:31.067] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2025-04-02 12:20:31.067] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2025-04-02 12:20:31.067] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2025-04-02 12:20:31.067] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2025-04-02 12:20:31.068] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2025-04-02 12:20:31.068] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2025-04-02 12:20:31.068] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2025-04-02 12:20:31.068] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2025-04-02 12:20:31.069] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2025-04-02 12:20:31.069] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2025-04-02 12:20:31.069] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2025-04-02 12:20:31.069] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2025-04-02 12:20:31.069] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2025-04-02 12:20:31.070] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2025-04-02 12:20:31.070] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2025-04-02 12:20:31.070] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2025-04-02 12:20:31.070] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2025-04-02 12:20:31.070] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2025-04-02 12:20:31.070] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2025-04-02 12:20:31.423] [warning] Visualizer couldn't open r_patella.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\r_patella.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\r_patella.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.423] [warning] Visualizer couldn't open r_talus.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\r_talus.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\r_talus.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.423] [warning] Visualizer couldn't open r_foot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\r_foot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\r_foot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.424] [warning] Visualizer couldn't open r_bofoot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\r_bofoot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\r_bofoot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.439] [warning] Visualizer couldn't open l_patella.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\l_patella.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\l_patella.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.439] [warning] Visualizer couldn't open l_talus.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\l_talus.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\l_talus.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.440] [warning] Visualizer couldn't open l_foot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\l_foot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\l_foot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.447] [warning] Visualizer couldn't open l_bofoot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\l_bofoot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\l_bofoot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.448] [warning] Visualizer couldn't open hat_spine.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_spine.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_spine.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.448] [warning] Visualizer couldn't open hat_jaw.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_jaw.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_jaw.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.448] [warning] Visualizer couldn't open hat_skull.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_skull.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_skull.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.448] [warning] Visualizer couldn't open hat_ribs_scap.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_ribs_scap.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_ribs_scap.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.448] [warning] Visualizer couldn't open humerus_rv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\humerus_rv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\humerus_rv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.448] [warning] Visualizer couldn't open ulna_rv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\ulna_rv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\ulna_rv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.448] [warning] Visualizer couldn't open radius_rv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\radius_rv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\radius_rv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open pisiform_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\pisiform_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\pisiform_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open lunate_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\lunate_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\lunate_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open scaphoid_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\scaphoid_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\scaphoid_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open triquetrum_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\triquetrum_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\triquetrum_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open hamate_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\hamate_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\hamate_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open capitate_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\capitate_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\capitate_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open trapezoid_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\trapezoid_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\trapezoid_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open trapezium_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\trapezium_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\trapezium_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open metacarpal2_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal2_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal2_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open index_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\index_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\index_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open index_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\index_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\index_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open index_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\index_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\index_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open metacarpal3_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal3_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal3_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.449] [warning] Visualizer couldn't open middle_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open middle_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open middle_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open metacarpal4_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal4_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal4_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open ring_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open ring_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open ring_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open metacarpal5_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal5_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal5_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open little_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\little_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\little_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open little_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\little_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\little_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open little_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\little_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\little_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open metacarpal1_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal1_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal1_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open thumb_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\thumb_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\thumb_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.450] [warning] Visualizer couldn't open thumb_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\thumb_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\thumb_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open humerus_lv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\humerus_lv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\humerus_lv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open ulna_lv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\ulna_lv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\ulna_lv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open radius_lv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\radius_lv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\radius_lv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open pisiform_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\pisiform_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\pisiform_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open lunate_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\lunate_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\lunate_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open scaphoid_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\scaphoid_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\scaphoid_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open triquetrum_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\triquetrum_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\triquetrum_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open hamate_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\hamate_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\hamate_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open capitate_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\capitate_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\capitate_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open trapezoid_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\trapezoid_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\trapezoid_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open trapezium_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\trapezium_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\trapezium_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open metacarpal2_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal2_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal2_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.451] [warning] Visualizer couldn't open index_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\index_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\index_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open index_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\index_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\index_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open index_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\index_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\index_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open metacarpal3_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal3_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal3_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open middle_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open middle_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open middle_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open metacarpal4_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal4_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal4_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open ring_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open ring_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open ring_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open metacarpal5_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal5_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal5_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open little_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\little_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\little_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open little_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\little_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\little_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open little_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\little_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\little_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open metacarpal1_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal1_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\metacarpal1_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.452] [warning] Visualizer couldn't open thumb_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\thumb_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\thumb_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:20:31.453] [warning] Visualizer couldn't open thumb_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\thumb_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\thumb_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-04-02 12:21:13.255] [info] Updating Model file from 30000 to latest format...
+[2025-04-02 12:21:13.309] [info] Loaded model 009 from file C:\Git\research_data\Projects\squatting_fais\models\009_Rajagopal2015_FAI.osim
+[2025-04-02 12:21:13.825] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-04-02 12:21:13.825] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-04-02 12:21:13.825] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-04-02 12:21:13.827] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-04-02 12:21:13.827] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-04-02 12:21:13.827] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-04-02 12:21:13.827] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-04-02 12:21:13.827] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-04-02 12:21:13.827] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-04-02 12:21:13.829] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-04-02 12:21:13.829] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-04-02 12:21:13.829] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.

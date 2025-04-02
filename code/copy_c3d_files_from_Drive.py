@@ -1,5 +1,9 @@
 import os 
 import shutil
+import msk_modelling_python as msk
+
+exit()
+
 
 original_database = r'E:\DataFolder\Running_FAI\c3d_files'
 destination_database = r'C:\Git\research_data\Projects\squatting_fais\c3dfiles'

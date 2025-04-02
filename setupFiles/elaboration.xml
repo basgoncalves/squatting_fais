@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elaboration>
+   <FolderName>.\InputData\015\pre</FolderName>
+   <Trials>RunA1</Trials>
+   <MarkersInterpolation>
+      <MaxGapSize>62.5</MaxGapSize>
+   </MarkersInterpolation>
+   <Filtering>
+      <Trial>
+         <Name>RunA1</Name>
+         <Fcut>
+            <Markers>10</Markers>
+         </Fcut>
+      </Trial>
+   </Filtering>
+   <WindowSelectionProcedure>
+      <Manual>
+         <TrialWindow>
+            <TrialName>RunA1</TrialName>
+            <StartFrame>370</StartFrame>
+            <EndFrame>551</EndFrame>
+         </TrialWindow>
+      </Manual>
+   </WindowSelectionProcedure>
+   <Markers>FHD LBHD RBHD C7 T10 CLAV LSHO LUUPA LMUPA LDUPA LLEP LMEP LRAD LUL LRFIN RSHO RUPA1 RMUPA RDUPA RLEP RMEP RRAD RUL RUFIN LASI RASI USACR LSACR RSACR LTHI1 LTHI2 LTHI3 LTHI4 LLFC LMFC LTIB1 LTIB2 LTIB3 LTIB4 LLMAL LMMAL LHEE LMT1 LMT5 LMT2 RTHI RTHI2 RTHI3 RTHI4 RLFC RMFC RTIB1 RTIB2 RTIB3 RTIB4 RLMAL RMMAL RHEE RMT1 RMT2 RMT5</Markers>
+   <EMGMaxTrials>RunA1</EMGMaxTrials>
+   <EMGsSelection>
+      <EMGSet>GriffithFAI-deephip-16muscles</EMGSet>
+      <EMGs>
+         <EMG/>
+      </EMGs>
+   </EMGsSelection>
+   <EMGOffset>0.1</EMGOffset>
+   <OutputFileFormats>
+      <MarkerTrajectories>.trc</MarkerTrajectories>
+      <GRF>.mot</GRF>
+      <EMG>.mot</EMG>
+   </OutputFileFormats>
+</elaboration>
