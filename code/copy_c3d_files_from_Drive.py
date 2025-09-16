@@ -18,7 +18,6 @@ target_subjetcs = [
     "073", "074", "075", "076", "077", "079"
 ]
 
-
 for root, dirs, files in os.walk(original_database):
     for file in files:
         if file.endswith('.c3d'):
