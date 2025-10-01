@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSimDocument Version="20302">
-   <InverseDynamicsTool name="subject01_walk1">
+   <InverseDynamicsTool name="ID">
   
       <!--Directory used for writing results.-->
-      <results_directory> ResultsInverseDynamics </results_directory>
+      <results_directory>.\</results_directory>
       <!--Name of the .osim file used to construct a model.-->
-      <model_file> Rajagopal2015_FAI.osim </model_file>
+      <model_file>Unassigned</model_file>
      <!--Time range over which the inverse dynamics problem is solved.-->
-      <time_range>       0.40000000       1.60000000 </time_range>
+      <time_range></time_range>
       <!--List of forces by individual or grouping name (e.g. All, actuators,
           muscles, ...) to be excluded when computing model dynamics.-->
       <forces_to_exclude> Muscles </forces_to_exclude>
@@ -16,7 +16,7 @@
       <external_loads_file>  </external_loads_file> 
       <!--The name of the file containing coordinate data. Can be a motion
           (.mot) or a states (.sto) file.-->
-      <coordinates_file> subject01_walk1_ik.mot </coordinates_file>
+      <coordinates_file>.\ik.mot</coordinates_file>
       <!--Low-pass cut-off frequency for filtering the coordinates_file data
           (currently does not apply to states_file or speeds_file). A negative
           value results in no filtering. The default value is -1.0, so no
