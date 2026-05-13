@@ -154,6 +154,7 @@ class Analyse(settings.Inputs):
                 setattr(self, varInput[0], varInput[1])
 
         # Update body mass and time range from data available (.trc, .c3d, events.csv) 
+        breakpoint()
         try:
             self.body_mass = self.get_body_mass()  
             self.time_range = self.get_time_range()

@@ -16,6 +16,7 @@ subjects = os.listdir(utils.SIMULATIONS_DIR)
 for subject in subjects:
     trials = os.listdir(os.path.join(utils.SIMULATIONS_DIR, subject))
     for trial in trials:
+        trial = 'SJ_pre4'
         print(f'  {trial}')
         trialPath = os.path.join(utils.SIMULATIONS_DIR, subject, trial)
         if not os.path.isdir(trialPath):
@@ -39,5 +40,6 @@ for subject in subjects:
         analysis.run_ik()
         analysis.run_id()
         analysis.run_so()
+        exit()
 
 
