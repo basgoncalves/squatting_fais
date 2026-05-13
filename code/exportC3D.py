@@ -9,12 +9,40 @@
 ##
 import os
 import re
+import shutil
+import warnings
 import opensim
 import utils
 import pandas as pd
 import c3d
 import numpy as np
 
+
+def define_time_range(trc_filepath, markers, algorithm):
+    
+    data = utils.load_any_data_file(trc_filepath)
+
+    # Define time range based on markers and algorithm
+    if algorithm == 'min-max':
+        start_time = data['time'].min()
+        end_time = data['time'].max()
+    elif algorithm == 'deadlift':
+        
+        start_frame = int(data[markers].idxmin())
+        
+        # end frame is the first frame with minimal derivative after the start frame
+        end_frame = int(data[markers].iloc[start_frame:].diff().idxmin())
+        
+        start_time = data['Time'].iloc[start_frame]
+        end_time = data['Time'].iloc[end_frame]
+        
+    # write events.csv file
+    data = [['start', start_time],
+            ['end', end_time]]
+    events = pd.DataFrame(data)
+    events.to_csv(os.path.dirname(trc_filepath) + '/events.csv', index=False, header=False)
+    print(f"Successfully exported {os.path.dirname(trc_filepath) + '/events.csv'}")
+    return start_time, end_time
 
 def write_mot(analog_df, labels, mot_file):
     """
@@ -51,109 +79,6 @@ def write_mot(analog_df, labels, mot_file):
             # breakpoint()
             writer.write(f"{row['time']:.6f}\t" + "\t".join([f"{val:.6f}" for val in row[1:]]) + "\n")
 
-def export_emg(c3d_filepath):
-    print(f"Reading C3D file: {c3d_filepath}")
-    try:
-        reader = c3d.Reader(open(c3d_filepath, "rb"))
-    except Exception as e:
-        print(f"Error: Could not open or read the C3D file. {e}")
-        return 1
-
-    # Rates and frames
-    marker_rate = float(reader.header.frame_rate)
-    first_frame = int(reader.header.first_frame)
-    num_frames = int(reader.frame_count)
-    
-    # Units (fallback to 'mm' if not available)
-    units = "mm"
-
-    # Labels, clamped to available columns to avoid index errors
-    marker_labels = [str(l or "").strip() for l in reader.point_labels]
-    analog_labels = [str(l or "").strip() for l in reader.analog_labels]
-
-    # create time vector
-    initial_time = first_frame / marker_rate
-    final_time = (first_frame + num_frames-1) / marker_rate
-    time = np.linspace(initial_time, final_time, num_frames)
-    
-    analog_df = pd.DataFrame(index=range(num_frames),columns=analog_labels)
-    analog_df['time'] = time
-
-    # move time to first column
-    cols = analog_df.columns.tolist()
-    cols = cols[-1:] + cols[:-1]
-    analog_df = analog_df[cols]
-    
-    # Collect frames
-    for frame_no, points, analog in reader.read_frames():
-        # get row number and print loading bar
-        i_row = frame_no - first_frame
-        # convert analog data to list
-        analog_list  = analog.data.tolist()
-
-        # loop through analog channels and add to dataframe
-        for i_channel in range(len(analog_list)):
-            channel_name = analog_labels[i_channel]
-            
-            # add channel to dataframe
-            analog_df.loc[i_row, channel_name] = analog[i_channel][0]
-
-
-    # save analog to csv
-    analog_path = os.path.join(os.path.dirname(c3d_filepath), "analog.csv")
-    analog_df.to_csv(analog_path, index=False)
-    print(f"Successfully exported {analog_path}")
-
-
-    # Write EMG MOT
-    emg_indices = [i for i, lbl in enumerate(analog_labels) if "emg" in lbl.lower()]
-    if emg_indices:
-        emg_mot_path = os.path.join(os.path.dirname(c3d_filepath), "emg.mot")
-        emg_labels = [analog_labels[i] for i in emg_indices]
-        write_mot(analog_df, emg_labels, emg_mot_path)
-        print(f"Successfully exported {emg_mot_path}")
-    else:
-        print("Warning: No EMG channels found among available analog channels.")
-        
-    # Write GRF MOT
-    breakpoint()    
-    grf_indices = [i for i, lbl in enumerate(analog_labels) if re.match(r'^[fpm]\d[xyz]$', lbl.lower())]
-
-def transform_labels(labels):
-    """
-    Transforms a list of labels from a compact format to a more descriptive format.
-    Example: 'f1x' -> 'ground_force_1_vx'
-    """
-    transformed = []
-    # Define a mapping for the prefixes and their corresponding replacements.
-    # The key is the original prefix (e.g., 'f'), and the value is a tuple
-    # containing the new prefix (e.g., 'ground_force') and the new suffix (e.g., 'v').
-    mapping = {
-        'f': ('ground_force', 'v'),
-        'p': ('ground_force', 'p'),
-        'm': ('ground_moment', 'm'),
-    }
-
-    for label in labels:
-        # Check if the label is at least 3 characters long and matches the pattern
-        if len(label) >= 3 and label[0] in mapping and label[-1] in 'xyz':
-            # Extract the original prefix (e.g., 'f'), number (e.g., '1'), and axis (e.g., 'x')
-            original_prefix = label[0]
-            number = label[1:-1]
-            axis = label[-1]
-
-            # Get the new prefix and suffix from the mapping
-            new_prefix, new_suffix = mapping[original_prefix]
-
-            # Construct the new label
-            new_label = f'{new_prefix}_{number}_{new_suffix}{axis}'
-            transformed.append(new_label)
-        else:
-            # If the label doesn't match the expected pattern, add it as is
-            transformed.append(label)
-
-    return transformed
-
 def rotate_data_table(table, axis, deg):
     """Rotate OpenSim::TimeSeriesTableVec3 entries using an axis and angle.
 
@@ -173,6 +98,70 @@ def rotate_data_table(table, axis, deg):
         vec_rotated = R.multiply(vec)
         table.setRowAtIndex(i, vec_rotated)
 
+def export_emg(c3d_filepath, emg_strings_list=['emg'], reset_time=True):
+    print(f"Reading C3D file: {c3d_filepath}")
+    try:
+        reader = c3d.Reader(open(c3d_filepath, "rb"))
+    except Exception as e:
+        print(f"Error: Could not open or read the C3D file. {e}")
+        return 1
+
+    # Rates and frames
+    marker_rate = float(reader.header.frame_rate)
+    first_frame = int(reader.header.first_frame)
+    num_frames = int(reader.frame_count)
+
+    # Labels
+    analog_labels = [str(l or "").strip() for l in reader.analog_labels]
+
+    # Create time vector
+    initial_time = first_frame / marker_rate
+    final_time = (first_frame + num_frames - 1) / marker_rate
+    time = np.linspace(initial_time, final_time, num_frames)
+
+    # Collect all analog frames into a list first (much faster than row-by-row loc assignment)
+    # Suppress the 'No point data found' warning that fires for EMG-only C3D files
+    rows = []
+    with warnings.catch_warnings():
+        warnings.filterwarnings('ignore', message='No point data found', category=UserWarning)
+        for frame_no, points, analog in reader.read_frames():
+            rows.append([analog[i][0] for i in range(len(analog_labels))])
+
+    # replace . and spaces in labels with underscores
+    analog_labels = [re.sub(r'[.\s]', '_', lbl) for lbl in analog_labels]
+    analog_df = pd.DataFrame(rows, columns=analog_labels)
+    analog_df.insert(0, 'time', time)
+
+    if reset_time:
+        analog_df['time'] = analog_df['time'] - analog_df['time'].iloc[0]
+
+    # Save analog to csv
+    analog_path = os.path.join(os.path.dirname(c3d_filepath), "analog.csv")
+    analog_df.to_csv(analog_path, index=False)
+    print(f"Successfully exported {analog_path}")
+
+    # Write EMG MOT
+    emg_indices = []
+    for i, label in enumerate(analog_labels):
+        for emg_str in emg_strings_list:
+            if label.lower().__contains__(emg_str.lower()):
+                emg_indices.append(i)
+                print(f"Found EMG channel: '{label}' at index {i}")
+    
+    if emg_indices:
+        emg_mot_path = os.path.join(os.path.dirname(c3d_filepath), "emg.mot")
+        emg_labels = [analog_labels[i] for i in emg_indices]
+        write_mot(analog_df, emg_labels, emg_mot_path)
+        print(f"Successfully exported {emg_mot_path}")
+    else:
+        print("Warning: No EMG channels found among available analog channels.")
+
+    # Filter emg mot
+    fs = 1 / (analog_df['time'].iloc[1] - analog_df['time'].iloc[0])
+    highcut_bp = fs/2 * 0.9
+    utils.filter_emg(emg_path=emg_mot_path, highcut_bp=highcut_bp, lowcut_bp=20, lowcut_lp=6, order_bp=4, order_lp=4)
+
+        
 def export_markers(c3d_filepath, strings_to_remove=[]):
     print(f"Exporting markers for {c3d_filepath}")
     
@@ -198,10 +187,46 @@ def export_markers(c3d_filepath, strings_to_remove=[]):
     markers_task.setColumnLabels(labels)
 
     trc_adapter = opensim.TRCFileAdapter()
-    trc_adapter.write(markers_task, os.path.join(output_dir, 'markers_experimental.trc'))
-    print(f"Successfully exported {os.path.join(output_dir, 'markers_experimental.trc')}")
+    trc_adapter.write(markers_task, os.path.join(output_dir, 'marker_experimental.trc'))
+    print(f"Successfully exported {os.path.join(output_dir, 'marker_experimental.trc')}")
     
 def export_grf(c3d_filepath):
+
+    def transform_labels(labels):
+        """
+        Transforms a list of labels from a compact format to a more descriptive format.
+        Example: 'f1x' -> 'ground_force_1_vx'
+        """
+        transformed = []
+        # Define a mapping for the prefixes and their corresponding replacements.
+        # The key is the original prefix (e.g., 'f'), and the value is a tuple
+        # containing the new prefix (e.g., 'ground_force') and the new suffix (e.g., 'v').
+        mapping = {
+            'f': ('ground_force', 'v'),
+            'p': ('ground_force', 'p'),
+            'm': ('ground_moment', 'm'),
+        }
+
+        for label in labels:
+            # Check if the label is at least 3 characters long and matches the pattern
+            if len(label) >= 3 and label[0] in mapping and label[-1] in 'xyz':
+                # Extract the original prefix (e.g., 'f'), number (e.g., '1'), and axis (e.g., 'x')
+                original_prefix = label[0]
+                number = label[1:-1]
+                axis = label[-1]
+
+                # Get the new prefix and suffix from the mapping
+                new_prefix, new_suffix = mapping[original_prefix]
+
+                # Construct the new label
+                new_label = f'{new_prefix}_{number}_{new_suffix}{axis}'
+                transformed.append(new_label)
+            else:
+                # If the label doesn't match the expected pattern, add it as is
+                transformed.append(label)
+
+        return transformed
+
     print(f"Exporting ground reaction forces for {c3d_filepath}")
     adapter = opensim.C3DFileAdapter()
     adapter.setLocationForForceExpression(opensim.C3DFileAdapter.ForceLocation_CenterOfPressure)
@@ -219,43 +244,39 @@ def export_grf(c3d_filepath):
     force_sto.setName('grf')
     output_dir = os.path.dirname(c3d_filepath)
     force_sto.printResult(force_sto, 'grf', output_dir, 0.01, '.mot')
-    print(f"Successfully exported {os.path.join(output_dir, 'grf_180.mot')}")
+    print(f"Successfully exported {os.path.join(output_dir, 'grf.mot')}")
 
-def define_time_range(trc_filepath, markers, algorithm):
+def main(c3d_filepath, emg_string_list=['emg'], create_folder=False):
     
-    data = utils.load_any_data_file(trc_filepath)
+    # create a directory for the output files   
+    output_dir = os.path.dirname(c3d_filepath)
 
-    # Define time range based on markers and algorithm
-    if algorithm == 'min-max':
-        start_time = data['time'].min()
-        end_time = data['time'].max()
-    elif algorithm == 'deadlift':
-        
-        start_frame = int(data[markers].idxmin())
-        
-        # end frame is the first frame with minimal derivative after the start frame
-        end_frame = int(data[markers].iloc[start_frame:].diff().idxmin())
-        
-        start_time = data['Time'].iloc[start_frame]
-        end_time = data['Time'].iloc[end_frame]
-        
-    # write events.csv file
-    data = [['start', start_time],
-            ['end', end_time]]
-    events = pd.DataFrame(data)
-    events.to_csv(os.path.dirname(trc_filepath) + '/events.csv', index=False, header=False)
-    print(f"Successfully exported {os.path.dirname(trc_filepath) + '/events.csv'}")
-    return start_time, end_time
+    if create_folder:
+        output_dir = os.path.join(output_dir, os.path.basename(c3d_filepath).replace('.c3d', ''))
+        os.makedirs(output_dir, exist_ok=True)
+        print(f"Created output directory: {output_dir}")
 
-def main(c3d_filepath, plot=False):
-    # trc_filepath = os.path.dirname(c3d_filepath) + '/markers_experimental.trc'
-    # define_time_range(trc_filepath, markers=['SACROL'], algorithm='deadlift')
-    # exit()
-    # OpenSim data adapters
-    export_markers(c3d_filepath, strings_to_remove = [])
-    export_grf(c3d_filepath)
-    
-    # export_emg(c3d_filepath)
+    # copy the c3d file to the output directory for reference
+    c3d_output_path = os.path.join(output_dir, os.path.basename(c3d_filepath))
+    if not os.path.exists(c3d_output_path):
+        shutil.copy(c3d_filepath, c3d_output_path)
+        print(f"Copied {c3d_filepath} to {c3d_output_path}")
+
+    try:
+        export_markers(c3d_output_path, strings_to_remove = [])
+    except Exception as e:
+        print(f"An error occurred while exporting markers")
+
+    try:
+        export_grf(c3d_output_path)
+    except Exception as e:
+        print(f"An error occurred while exporting ground reaction forces")
+        
+    try:
+        export_emg(c3d_output_path, emg_strings_list=emg_string_list)
+    except Exception as e:
+        print(f"An error occurred while exporting EMG data")
+
 
 if __name__ == "__main__":
 
@@ -273,6 +294,6 @@ if __name__ == "__main__":
     
     print(f"Processing {c3d_filepath}")
     
-    main(c3d_filepath, plot=False)
+    main(c3d_filepath, create_folder=False, emg_string_list='TIBANTR_EMG_1_v	SOLEUSL_EMG_10_v	GASLATL_EMG_11_v	VLL_EMG_12_v	RECFL_EMG_13_v	GMEDL_EMG_14_v	GMAXL_EMG_15_v	SEMITENL_EMG_16_v	SOLEUSR_EMG_2_v	GASLATR_EMG_3_v	VLR_EMG_4_v	RECFR_EMG_5_v	GMEDR_EMG_6_v	GMAXR_EMG_7_v	SEMITENR_EMG_8_v	TIBANTL_EMG_9_v'.split())
 
 # END
