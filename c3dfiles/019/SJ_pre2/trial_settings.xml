@@ -9,8 +9,8 @@
    <parentdir>..</parentdir>
    <model_name>scaled.osim</model_name>
    <model_dir>..\..\..\models\019_Rajagopal2015_FAI.osim</model_dir>
-   <body_mass>64.70000000000006</body_mass>
-   <time_range>[3.4, 4.0]</time_range>
+   <body_mass>0.007487447279561709</body_mass>
+   <time_range>['3.34', 'time']</time_range>
    <setup_dir>..\..\..\code\setupFiles</setup_dir>
    <c3d>c3dfile.c3d</c3d>
    <emg>emg.mot</emg>
