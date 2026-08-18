@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
 <OpenSimDocument Version="40500">
+=======
+<OpenSimDocument Version="40000">
+>>>>>>> ee2b902a52025e3718825fe5728a8be57006b69f
 	<InverseKinematicsTool>
 		<!--Name of the directory where results are written. Be default this is the directory in which the setup file is be  executed.-->
 		<results_directory>./</results_directory>
