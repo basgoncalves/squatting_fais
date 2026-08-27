@@ -52,4 +52,5 @@
    <ceinms_muscle_forces>Execution_a10_b1_g1000\MuscleForces.sto</ceinms_muscle_forces>
    <ceinms_activations>Execution_a10_b1_g1000\Activations.sto</ceinms_activations>
    <jra_ceinms>Analyse_JRA_ReactionLoads_CEINMS.sto</jra_ceinms>
+   <Target_Muscles>all</Target_Muscles>
 </TrialSettings>

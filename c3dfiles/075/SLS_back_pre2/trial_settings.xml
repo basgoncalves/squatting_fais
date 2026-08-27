@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <TrialSettings>
-   <replace>False</replace>
+   <replace>True</replace>
    <path>.</path>
    <settingsXML>trial_settings.xml</settingsXML>
    <subject>075</subject>
    <session>None</session>
    <trial>SLS_back_pre2</trial>
    <parentdir>..</parentdir>
-   <model_name>scaled.osim</model_name>
+   <model_name>scaled_increased_3.00.osim</model_name>
    <model_dir>..\..\..\models\075_Rajagopal2015_FAI.osim</model_dir>
    <body_mass>77.30000000000004</body_mass>
    <time_range>[1.75, 4.5]</time_range>

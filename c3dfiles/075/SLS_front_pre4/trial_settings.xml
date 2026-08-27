@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <TrialSettings>
-   <replace>False</replace>
+   <replace>True</replace>
    <path>.</path>
    <settingsXML>trial_settings.xml</settingsXML>
    <subject>075</subject>
