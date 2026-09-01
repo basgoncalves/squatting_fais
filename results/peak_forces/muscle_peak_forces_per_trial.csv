@@ -1,0 +1,870 @@
+pid,trial,task,group,peak_N
+038,SJ_pre1,SJ,Vasti,5644.35561555
+038,SJ_pre1,SJ,Gluteus maximus,2663.91589081
+038,SJ_pre1,SJ,Gluteus medius,2467.80792097
+038,SJ_pre1,SJ,Gluteus minimus,1338.95485503
+038,SJ_pre1,SJ,Hamstrings,5193.28705103
+038,SJ_pre1,SJ,Adductors,3434.9844838800004
+038,SJ_pre1,SJ,Triceps surae,5021.2632235500005
+038,SJ_pre1,SJ,Iliopsoas,2565.3400234
+038,SJ_pre1,SJ,Rectus femoris,2711.2520232
+038,SJ_pre1,SJ,Tibialis anterior,1678.8553482
+038,SJ_pre1,SJ,Piriformis,848.01451199
+038,SJ_pre2,SJ,Vasti,6067.22417658
+038,SJ_pre2,SJ,Gluteus maximus,1544.69022614
+038,SJ_pre2,SJ,Gluteus medius,2486.1784403700003
+038,SJ_pre2,SJ,Gluteus minimus,1278.48612869
+038,SJ_pre2,SJ,Hamstrings,4996.94357803
+038,SJ_pre2,SJ,Adductors,3419.83700591
+038,SJ_pre2,SJ,Triceps surae,8059.68323953
+038,SJ_pre2,SJ,Iliopsoas,2468.76975495
+038,SJ_pre2,SJ,Rectus femoris,2608.47146208
+038,SJ_pre2,SJ,Tibialis anterior,1652.2242219
+038,SJ_pre2,SJ,Piriformis,819.95561119
+038,SJ_pre3,SJ,Vasti,5992.90907761
+038,SJ_pre3,SJ,Gluteus maximus,1747.2514594600002
+038,SJ_pre3,SJ,Gluteus medius,2431.0304508
+038,SJ_pre3,SJ,Gluteus minimus,1276.52397698
+038,SJ_pre3,SJ,Hamstrings,5090.75273383
+038,SJ_pre3,SJ,Adductors,3450.17810734
+038,SJ_pre3,SJ,Triceps surae,8295.70893214
+038,SJ_pre3,SJ,Iliopsoas,1805.09217352
+038,SJ_pre3,SJ,Rectus femoris,2705.12069975
+038,SJ_pre3,SJ,Tibialis anterior,1682.4798964
+038,SJ_pre3,SJ,Piriformis,849.53787512
+038,SJ_pre4,SJ,Vasti,6277.06925198
+038,SJ_pre4,SJ,Gluteus maximus,1604.23147433
+038,SJ_pre4,SJ,Gluteus medius,2400.80423586
+038,SJ_pre4,SJ,Gluteus minimus,1212.76361122
+038,SJ_pre4,SJ,Hamstrings,5080.578407970001
+038,SJ_pre4,SJ,Adductors,3424.9090086
+038,SJ_pre4,SJ,Triceps surae,8660.33118137
+038,SJ_pre4,SJ,Iliopsoas,2074.68685386
+038,SJ_pre4,SJ,Rectus femoris,2625.31615928
+038,SJ_pre4,SJ,Tibialis anterior,1678.16436638
+038,SJ_pre4,SJ,Piriformis,927.36279314
+038,SJ_pre5,SJ,Vasti,6087.35745558
+038,SJ_pre5,SJ,Gluteus maximus,1497.8065273
+038,SJ_pre5,SJ,Gluteus medius,2417.15851954
+038,SJ_pre5,SJ,Gluteus minimus,1195.19100561
+038,SJ_pre5,SJ,Hamstrings,5005.67180448
+038,SJ_pre5,SJ,Adductors,3535.53319693
+038,SJ_pre5,SJ,Triceps surae,8584.374671450001
+038,SJ_pre5,SJ,Iliopsoas,2523.13289352
+038,SJ_pre5,SJ,Rectus femoris,2682.76557201
+038,SJ_pre5,SJ,Tibialis anterior,1684.14896235
+038,SJ_pre5,SJ,Piriformis,879.80251153
+039,SJ_pre1,SJ,Vasti,7149.419908309999
+039,SJ_pre1,SJ,Gluteus maximus,2390.47499984
+039,SJ_pre1,SJ,Gluteus medius,2501.5164060300003
+039,SJ_pre1,SJ,Gluteus minimus,1396.78918119
+039,SJ_pre1,SJ,Hamstrings,4437.53752453
+039,SJ_pre1,SJ,Adductors,2853.3472765899996
+039,SJ_pre1,SJ,Triceps surae,7305.31378384
+039,SJ_pre1,SJ,Iliopsoas,1899.4440575600001
+039,SJ_pre1,SJ,Rectus femoris,2654.30940959
+039,SJ_pre1,SJ,Tibialis anterior,1664.62092895
+039,SJ_pre1,SJ,Piriformis,1052.10300146
+039,SJ_pre2,SJ,Vasti,6919.597882810001
+039,SJ_pre2,SJ,Gluteus maximus,2573.3857682
+039,SJ_pre2,SJ,Gluteus medius,2738.8571452300002
+039,SJ_pre2,SJ,Gluteus minimus,1435.67165222
+039,SJ_pre2,SJ,Hamstrings,4701.443035349999
+039,SJ_pre2,SJ,Adductors,3305.5737278399997
+039,SJ_pre2,SJ,Triceps surae,8442.84870331
+039,SJ_pre2,SJ,Iliopsoas,2149.88739576
+039,SJ_pre2,SJ,Rectus femoris,2625.12857642
+039,SJ_pre2,SJ,Tibialis anterior,1659.32602105
+039,SJ_pre2,SJ,Piriformis,855.25989408
+039,SJ_pre3,SJ,Vasti,6764.90285956
+039,SJ_pre3,SJ,Gluteus maximus,2772.78862454
+039,SJ_pre3,SJ,Gluteus medius,2565.21469323
+039,SJ_pre3,SJ,Gluteus minimus,1418.66998947
+039,SJ_pre3,SJ,Hamstrings,4699.35557222
+039,SJ_pre3,SJ,Adductors,2980.93933629
+039,SJ_pre3,SJ,Triceps surae,8289.84777151
+039,SJ_pre3,SJ,Iliopsoas,1847.7854207199998
+039,SJ_pre3,SJ,Rectus femoris,2651.65793907
+039,SJ_pre3,SJ,Tibialis anterior,1658.44252144
+039,SJ_pre3,SJ,Piriformis,758.65983781
+039,SJ_pre4,SJ,Vasti,6966.04525789
+039,SJ_pre4,SJ,Gluteus maximus,2903.6012279399997
+039,SJ_pre4,SJ,Gluteus medius,2432.39301971
+039,SJ_pre4,SJ,Gluteus minimus,1327.87751139
+039,SJ_pre4,SJ,Hamstrings,4613.67617376
+039,SJ_pre4,SJ,Adductors,3376.869129
+039,SJ_pre4,SJ,Triceps surae,7648.493332370001
+039,SJ_pre4,SJ,Iliopsoas,1959.5042852299998
+039,SJ_pre4,SJ,Rectus femoris,2687.91109377
+039,SJ_pre4,SJ,Tibialis anterior,1664.71834394
+039,SJ_pre4,SJ,Piriformis,951.8252004
+039,SJ_pre5,SJ,Vasti,6762.55856231
+039,SJ_pre5,SJ,Gluteus maximus,1968.1718864100003
+039,SJ_pre5,SJ,Gluteus medius,2544.4938678
+039,SJ_pre5,SJ,Gluteus minimus,1381.05935642
+039,SJ_pre5,SJ,Hamstrings,4796.737445659999
+039,SJ_pre5,SJ,Adductors,3287.40806097
+039,SJ_pre5,SJ,Triceps surae,7074.61575217
+039,SJ_pre5,SJ,Iliopsoas,2611.21492801
+039,SJ_pre5,SJ,Rectus femoris,2545.06712507
+039,SJ_pre5,SJ,Tibialis anterior,1662.52831616
+039,SJ_pre5,SJ,Piriformis,961.25191056
+040,SJ_pre1,SJ,Vasti,12328.973001479999
+040,SJ_pre1,SJ,Gluteus maximus,3539.91696877
+040,SJ_pre1,SJ,Gluteus medius,3264.13778042
+040,SJ_pre1,SJ,Gluteus minimus,1287.9036036399998
+040,SJ_pre1,SJ,Hamstrings,4176.1559865
+040,SJ_pre1,SJ,Adductors,4240.33191643
+040,SJ_pre1,SJ,Triceps surae,7130.88364402
+040,SJ_pre1,SJ,Iliopsoas,2347.26629675
+040,SJ_pre1,SJ,Rectus femoris,2586.53273143
+040,SJ_pre1,SJ,Tibialis anterior,814.77992079
+040,SJ_pre1,SJ,Piriformis,1272.9799864
+040,SJ_pre2,SJ,Vasti,12319.99636297
+040,SJ_pre2,SJ,Gluteus maximus,3405.5953156800006
+040,SJ_pre2,SJ,Gluteus medius,3010.7531429500004
+040,SJ_pre2,SJ,Gluteus minimus,1298.0198890699999
+040,SJ_pre2,SJ,Hamstrings,4919.48196306
+040,SJ_pre2,SJ,Adductors,4055.2109761200004
+040,SJ_pre2,SJ,Triceps surae,12893.30022232
+040,SJ_pre2,SJ,Iliopsoas,2123.85467994
+040,SJ_pre2,SJ,Rectus femoris,2685.62889483
+040,SJ_pre2,SJ,Tibialis anterior,820.23716365
+040,SJ_pre2,SJ,Piriformis,994.60249076
+040,SJ_pre3,SJ,Vasti,11653.79520137
+040,SJ_pre3,SJ,Gluteus maximus,3578.9520950000006
+040,SJ_pre3,SJ,Gluteus medius,3230.8431242399997
+040,SJ_pre3,SJ,Gluteus minimus,1233.1377089799998
+040,SJ_pre3,SJ,Hamstrings,5265.90501913
+040,SJ_pre3,SJ,Adductors,4499.175063299999
+040,SJ_pre3,SJ,Triceps surae,13886.40669482
+040,SJ_pre3,SJ,Iliopsoas,2008.92077393
+040,SJ_pre3,SJ,Rectus femoris,2548.80916125
+040,SJ_pre3,SJ,Tibialis anterior,697.35955068
+040,SJ_pre3,SJ,Piriformis,1097.07515875
+040,SJ_pre4,SJ,Vasti,12217.008843189999
+040,SJ_pre4,SJ,Gluteus maximus,3685.1527118799995
+040,SJ_pre4,SJ,Gluteus medius,3324.8660796
+040,SJ_pre4,SJ,Gluteus minimus,1183.23420932
+040,SJ_pre4,SJ,Hamstrings,4678.98103445
+040,SJ_pre4,SJ,Adductors,4347.90043573
+040,SJ_pre4,SJ,Triceps surae,13859.67130394
+040,SJ_pre4,SJ,Iliopsoas,2070.15087351
+040,SJ_pre4,SJ,Rectus femoris,2602.95528516
+040,SJ_pre4,SJ,Tibialis anterior,819.33825877
+040,SJ_pre4,SJ,Piriformis,1219.61791707
+040,SJ_pre5,SJ,Vasti,12429.85788335
+040,SJ_pre5,SJ,Gluteus maximus,3118.70651096
+040,SJ_pre5,SJ,Gluteus medius,3200.78752639
+040,SJ_pre5,SJ,Gluteus minimus,1444.32478274
+040,SJ_pre5,SJ,Hamstrings,5189.27809314
+040,SJ_pre5,SJ,Adductors,4520.566413130001
+040,SJ_pre5,SJ,Triceps surae,12724.73368266
+040,SJ_pre5,SJ,Iliopsoas,1926.46023985
+040,SJ_pre5,SJ,Rectus femoris,2630.26901538
+040,SJ_pre5,SJ,Tibialis anterior,801.12973303
+040,SJ_pre5,SJ,Piriformis,1080.75761962
+041,SJ_pre1,SJ,Vasti,6923.14177913
+041,SJ_pre1,SJ,Gluteus maximus,2064.13265774
+041,SJ_pre1,SJ,Gluteus medius,2350.51454732
+041,SJ_pre1,SJ,Gluteus minimus,1184.72541559
+041,SJ_pre1,SJ,Hamstrings,4702.27979457
+041,SJ_pre1,SJ,Adductors,3410.8793349199996
+041,SJ_pre1,SJ,Triceps surae,6535.11714448
+041,SJ_pre1,SJ,Iliopsoas,3010.36479836
+041,SJ_pre1,SJ,Rectus femoris,2569.47897122
+041,SJ_pre1,SJ,Tibialis anterior,1666.88577804
+041,SJ_pre1,SJ,Piriformis,963.41485499
+041,SJ_pre2,SJ,Vasti,6723.72979158
+041,SJ_pre2,SJ,Gluteus maximus,1564.67016198
+041,SJ_pre2,SJ,Gluteus medius,2407.41944573
+041,SJ_pre2,SJ,Gluteus minimus,1248.24787371
+041,SJ_pre2,SJ,Hamstrings,3906.95226963
+041,SJ_pre2,SJ,Adductors,3344.97890396
+041,SJ_pre2,SJ,Triceps surae,6400.9574231
+041,SJ_pre2,SJ,Iliopsoas,2418.64786297
+041,SJ_pre2,SJ,Rectus femoris,2526.16160796
+041,SJ_pre2,SJ,Tibialis anterior,1663.98319511
+041,SJ_pre2,SJ,Piriformis,928.27891683
+041,SJ_pre3,SJ,Vasti,6793.95031784
+041,SJ_pre3,SJ,Gluteus maximus,2492.44131783
+041,SJ_pre3,SJ,Gluteus medius,2423.03348109
+041,SJ_pre3,SJ,Gluteus minimus,1246.5401776400001
+041,SJ_pre3,SJ,Hamstrings,4176.25632329
+041,SJ_pre3,SJ,Adductors,3459.52115474
+041,SJ_pre3,SJ,Triceps surae,6761.14599318
+041,SJ_pre3,SJ,Iliopsoas,2314.1212328399997
+041,SJ_pre3,SJ,Rectus femoris,2527.64232581
+041,SJ_pre3,SJ,Tibialis anterior,1667.33777403
+041,SJ_pre3,SJ,Piriformis,879.02561057
+041,SJ_pre4,SJ,Vasti,6696.1598717100005
+041,SJ_pre4,SJ,Gluteus maximus,1488.08119771
+041,SJ_pre4,SJ,Gluteus medius,2363.43787125
+041,SJ_pre4,SJ,Gluteus minimus,1191.83228979
+041,SJ_pre4,SJ,Hamstrings,4420.423231639999
+041,SJ_pre4,SJ,Adductors,3396.95140857
+041,SJ_pre4,SJ,Triceps surae,5857.959853699999
+041,SJ_pre4,SJ,Iliopsoas,3001.82557752
+041,SJ_pre4,SJ,Rectus femoris,2492.15824033
+041,SJ_pre4,SJ,Tibialis anterior,1665.16352198
+041,SJ_pre4,SJ,Piriformis,879.96820616
+041,SJ_pre5,SJ,Vasti,6840.360283280001
+041,SJ_pre5,SJ,Gluteus maximus,1478.95498289
+041,SJ_pre5,SJ,Gluteus medius,2406.54700265
+041,SJ_pre5,SJ,Gluteus minimus,1264.3110556699999
+041,SJ_pre5,SJ,Hamstrings,4485.60263198
+041,SJ_pre5,SJ,Adductors,3432.8645717199997
+041,SJ_pre5,SJ,Triceps surae,6962.87927856
+041,SJ_pre5,SJ,Iliopsoas,2746.42287793
+041,SJ_pre5,SJ,Rectus femoris,2543.55350832
+041,SJ_pre5,SJ,Tibialis anterior,1658.60977669
+041,SJ_pre5,SJ,Piriformis,872.98526511
+044,SJ_pre1,SJ,Vasti,5985.42013735
+044,SJ_pre1,SJ,Gluteus maximus,1325.35600259
+044,SJ_pre1,SJ,Gluteus medius,2537.3600705000003
+044,SJ_pre1,SJ,Gluteus minimus,1366.1866894
+044,SJ_pre1,SJ,Hamstrings,4299.76228075
+044,SJ_pre1,SJ,Adductors,3514.4268393200005
+044,SJ_pre1,SJ,Triceps surae,3288.9624231099997
+044,SJ_pre1,SJ,Iliopsoas,2101.82894899
+044,SJ_pre1,SJ,Rectus femoris,2681.1358664
+044,SJ_pre1,SJ,Tibialis anterior,1660.59196437
+044,SJ_pre1,SJ,Piriformis,656.84441317
+044,SJ_pre2,SJ,Vasti,5972.08898749
+044,SJ_pre2,SJ,Gluteus maximus,1365.19603072
+044,SJ_pre2,SJ,Gluteus medius,2473.5331671900003
+044,SJ_pre2,SJ,Gluteus minimus,1389.14722362
+044,SJ_pre2,SJ,Hamstrings,4514.12937066
+044,SJ_pre2,SJ,Adductors,3371.5406734599997
+044,SJ_pre2,SJ,Triceps surae,6233.52376224
+044,SJ_pre2,SJ,Iliopsoas,2875.2681661200004
+044,SJ_pre2,SJ,Rectus femoris,2707.46433441
+044,SJ_pre2,SJ,Tibialis anterior,1640.9378303
+044,SJ_pre2,SJ,Piriformis,615.93003559
+044,SJ_pre3,SJ,Vasti,4683.7366072
+044,SJ_pre3,SJ,Gluteus maximus,1390.30649495
+044,SJ_pre3,SJ,Gluteus medius,2488.2317954600003
+044,SJ_pre3,SJ,Gluteus minimus,1273.92285381
+044,SJ_pre3,SJ,Hamstrings,4994.3436489000005
+044,SJ_pre3,SJ,Adductors,2919.52674294
+044,SJ_pre3,SJ,Triceps surae,4475.94686428
+044,SJ_pre3,SJ,Iliopsoas,2970.00021776
+044,SJ_pre3,SJ,Rectus femoris,2719.56076874
+044,SJ_pre3,SJ,Tibialis anterior,1660.47657722
+044,SJ_pre3,SJ,Piriformis,639.84672251
+044,SJ_pre4,SJ,Vasti,5993.84905563
+044,SJ_pre4,SJ,Gluteus maximus,1702.3347863899999
+044,SJ_pre4,SJ,Gluteus medius,2628.68284252
+044,SJ_pre4,SJ,Gluteus minimus,1417.55962477
+044,SJ_pre4,SJ,Hamstrings,4872.67018495
+044,SJ_pre4,SJ,Adductors,3846.24951912
+044,SJ_pre4,SJ,Triceps surae,5807.0397867
+044,SJ_pre4,SJ,Iliopsoas,2428.86799967
+044,SJ_pre4,SJ,Rectus femoris,2728.9117655
+044,SJ_pre4,SJ,Tibialis anterior,1666.47562201
+044,SJ_pre4,SJ,Piriformis,687.47385093
+044,SJ_pre5,SJ,Vasti,6176.292434870001
+044,SJ_pre5,SJ,Gluteus maximus,1773.91198798
+044,SJ_pre5,SJ,Gluteus medius,2568.33172039
+044,SJ_pre5,SJ,Gluteus minimus,1366.1285967600002
+044,SJ_pre5,SJ,Hamstrings,5197.493288989999
+044,SJ_pre5,SJ,Adductors,3714.5045523500003
+044,SJ_pre5,SJ,Triceps surae,5827.35017894
+044,SJ_pre5,SJ,Iliopsoas,2915.21550835
+044,SJ_pre5,SJ,Rectus femoris,2713.58804204
+044,SJ_pre5,SJ,Tibialis anterior,1664.1776904
+044,SJ_pre5,SJ,Piriformis,874.28258815
+047,SJ_pre1,SJ,Vasti,6211.649091519999
+047,SJ_pre1,SJ,Gluteus maximus,1383.85577027
+047,SJ_pre1,SJ,Gluteus medius,2284.00574345
+047,SJ_pre1,SJ,Gluteus minimus,1196.6966980700001
+047,SJ_pre1,SJ,Hamstrings,3844.5791073100004
+047,SJ_pre1,SJ,Adductors,3340.82642588
+047,SJ_pre1,SJ,Triceps surae,7496.0252761
+047,SJ_pre1,SJ,Iliopsoas,2204.34609413
+047,SJ_pre1,SJ,Rectus femoris,2693.52225399
+047,SJ_pre1,SJ,Tibialis anterior,1653.10649473
+047,SJ_pre1,SJ,Piriformis,813.81178483
+047,SJ_pre2,SJ,Vasti,5507.97226789
+047,SJ_pre2,SJ,Gluteus maximus,1397.58503399
+047,SJ_pre2,SJ,Gluteus medius,2159.56194292
+047,SJ_pre2,SJ,Gluteus minimus,1176.70686875
+047,SJ_pre2,SJ,Hamstrings,4391.763168410001
+047,SJ_pre2,SJ,Adductors,2949.4266036599997
+047,SJ_pre2,SJ,Triceps surae,7920.63887742
+047,SJ_pre2,SJ,Iliopsoas,2954.80498442
+047,SJ_pre2,SJ,Rectus femoris,2306.47076909
+047,SJ_pre2,SJ,Tibialis anterior,1660.16519461
+047,SJ_pre2,SJ,Piriformis,470.09839642
+047,SJ_pre3,SJ,Vasti,5818.55525965
+047,SJ_pre3,SJ,Gluteus maximus,1263.8220354300001
+047,SJ_pre3,SJ,Gluteus medius,2035.1758377
+047,SJ_pre3,SJ,Gluteus minimus,1117.43906865
+047,SJ_pre3,SJ,Hamstrings,3902.2238343299996
+047,SJ_pre3,SJ,Adductors,3060.7736704100002
+047,SJ_pre3,SJ,Triceps surae,6260.973779659999
+047,SJ_pre3,SJ,Iliopsoas,1970.5791742
+047,SJ_pre3,SJ,Rectus femoris,2528.31825037
+047,SJ_pre3,SJ,Tibialis anterior,1654.0313561
+047,SJ_pre3,SJ,Piriformis,391.86255642
+047,SJ_pre4,SJ,Vasti,5777.53053857
+047,SJ_pre4,SJ,Gluteus maximus,1249.5800266099998
+047,SJ_pre4,SJ,Gluteus medius,1994.14398348
+047,SJ_pre4,SJ,Gluteus minimus,1123.81772733
+047,SJ_pre4,SJ,Hamstrings,4334.11480508
+047,SJ_pre4,SJ,Adductors,3023.2967451699997
+047,SJ_pre4,SJ,Triceps surae,7717.04284869
+047,SJ_pre4,SJ,Iliopsoas,2330.83927581
+047,SJ_pre4,SJ,Rectus femoris,2513.67953232
+047,SJ_pre4,SJ,Tibialis anterior,1651.01286119
+047,SJ_pre4,SJ,Piriformis,442.00717478
+047,SJ_pre5,SJ,Vasti,6027.33394569
+047,SJ_pre5,SJ,Gluteus maximus,1342.30454208
+047,SJ_pre5,SJ,Gluteus medius,2100.60752114
+047,SJ_pre5,SJ,Gluteus minimus,1114.48309842
+047,SJ_pre5,SJ,Hamstrings,4010.57559915
+047,SJ_pre5,SJ,Adductors,3023.23860659
+047,SJ_pre5,SJ,Triceps surae,7143.52183779
+047,SJ_pre5,SJ,Iliopsoas,2233.44394611
+047,SJ_pre5,SJ,Rectus femoris,2429.101769
+047,SJ_pre5,SJ,Tibialis anterior,1646.31316176
+047,SJ_pre5,SJ,Piriformis,501.51697478
+054,SJ_pre1,SJ,Vasti,11769.947387749999
+054,SJ_pre1,SJ,Gluteus maximus,3018.4450229699996
+054,SJ_pre1,SJ,Gluteus medius,3344.06008746
+054,SJ_pre1,SJ,Gluteus minimus,1472.6490026400002
+054,SJ_pre1,SJ,Hamstrings,3769.0226589500003
+054,SJ_pre1,SJ,Adductors,4484.55562725
+054,SJ_pre1,SJ,Triceps surae,11575.38439154
+054,SJ_pre1,SJ,Iliopsoas,2051.39068496
+054,SJ_pre1,SJ,Rectus femoris,2479.50688732
+054,SJ_pre1,SJ,Tibialis anterior,1001.42219189
+054,SJ_pre1,SJ,Piriformis,1249.480562
+054,SJ_pre2,SJ,Vasti,6301.52244527
+054,SJ_pre2,SJ,Gluteus maximus,1559.83396257
+054,SJ_pre2,SJ,Gluteus medius,2049.61338717
+054,SJ_pre2,SJ,Gluteus minimus,1134.05330013
+054,SJ_pre2,SJ,Hamstrings,4110.648072309999
+054,SJ_pre2,SJ,Adductors,3128.4092325499996
+054,SJ_pre2,SJ,Triceps surae,4766.046322390001
+054,SJ_pre2,SJ,Iliopsoas,2607.4575758700003
+054,SJ_pre2,SJ,Rectus femoris,2280.41033033
+054,SJ_pre2,SJ,Tibialis anterior,1656.51212368
+054,SJ_pre2,SJ,Piriformis,816.36127052
+054,SJ_pre3,SJ,Vasti,12015.90226366
+054,SJ_pre3,SJ,Gluteus maximus,3682.8374727399996
+054,SJ_pre3,SJ,Gluteus medius,3334.3425955499997
+054,SJ_pre3,SJ,Gluteus minimus,1387.5379684999998
+054,SJ_pre3,SJ,Hamstrings,4158.18082587
+054,SJ_pre3,SJ,Adductors,4187.13698279
+054,SJ_pre3,SJ,Triceps surae,12394.539475450001
+054,SJ_pre3,SJ,Iliopsoas,1768.0402136
+054,SJ_pre3,SJ,Rectus femoris,2616.29459357
+054,SJ_pre3,SJ,Tibialis anterior,959.94405647
+054,SJ_pre3,SJ,Piriformis,1316.11567419
+054,SJ_pre4,SJ,Vasti,11796.805936399998
+054,SJ_pre4,SJ,Gluteus maximus,3876.86782524
+054,SJ_pre4,SJ,Gluteus medius,3221.12106948
+054,SJ_pre4,SJ,Gluteus minimus,1428.08565289
+054,SJ_pre4,SJ,Hamstrings,4857.2419422
+054,SJ_pre4,SJ,Adductors,4437.48553113
+054,SJ_pre4,SJ,Triceps surae,10695.67133771
+054,SJ_pre4,SJ,Iliopsoas,1651.1664265
+054,SJ_pre4,SJ,Rectus femoris,2223.15279442
+054,SJ_pre4,SJ,Tibialis anterior,866.89529711
+054,SJ_pre4,SJ,Piriformis,1189.0723334
+054,SJ_pre5,SJ,Vasti,11797.432607080002
+054,SJ_pre5,SJ,Gluteus maximus,3328.9059260699996
+054,SJ_pre5,SJ,Gluteus medius,3210.36060162
+054,SJ_pre5,SJ,Gluteus minimus,1402.24587078
+054,SJ_pre5,SJ,Hamstrings,3729.85413902
+054,SJ_pre5,SJ,Adductors,4380.36919639
+054,SJ_pre5,SJ,Triceps surae,10287.79601136
+054,SJ_pre5,SJ,Iliopsoas,1580.42094313
+054,SJ_pre5,SJ,Rectus femoris,2231.15418472
+054,SJ_pre5,SJ,Tibialis anterior,926.09028348
+054,SJ_pre5,SJ,Piriformis,1087.74338923
+073,SJ_pre1,SJ,Vasti,6174.59911004
+073,SJ_pre1,SJ,Gluteus maximus,1591.24843205
+073,SJ_pre1,SJ,Gluteus medius,2655.9072900799997
+073,SJ_pre1,SJ,Gluteus minimus,1349.23851108
+073,SJ_pre1,SJ,Hamstrings,4194.06517151
+073,SJ_pre1,SJ,Adductors,3188.2950701600003
+073,SJ_pre1,SJ,Triceps surae,7998.497221289999
+073,SJ_pre1,SJ,Iliopsoas,1981.80337952
+073,SJ_pre1,SJ,Rectus femoris,2641.21841335
+073,SJ_pre1,SJ,Tibialis anterior,1667.37211223
+073,SJ_pre1,SJ,Piriformis,783.35405601
+073,SJ_pre2,SJ,Vasti,6007.42935491
+073,SJ_pre2,SJ,Gluteus maximus,1757.36948024
+073,SJ_pre2,SJ,Gluteus medius,2464.65521171
+073,SJ_pre2,SJ,Gluteus minimus,1321.6789119300001
+073,SJ_pre2,SJ,Hamstrings,4227.57736551
+073,SJ_pre2,SJ,Adductors,3280.6263591800002
+073,SJ_pre2,SJ,Triceps surae,4164.1695217100005
+073,SJ_pre2,SJ,Iliopsoas,2499.70179899
+073,SJ_pre2,SJ,Rectus femoris,2615.7283704
+073,SJ_pre2,SJ,Tibialis anterior,1651.77169963
+073,SJ_pre2,SJ,Piriformis,807.9846746
+073,SJ_pre3,SJ,Vasti,5966.56306696
+073,SJ_pre3,SJ,Gluteus maximus,1831.936323
+073,SJ_pre3,SJ,Gluteus medius,2574.9085716199997
+073,SJ_pre3,SJ,Gluteus minimus,1378.3364973
+073,SJ_pre3,SJ,Hamstrings,4332.91245311
+073,SJ_pre3,SJ,Adductors,3241.52636309
+073,SJ_pre3,SJ,Triceps surae,4129.17466424
+073,SJ_pre3,SJ,Iliopsoas,2834.9699092600003
+073,SJ_pre3,SJ,Rectus femoris,2540.55643755
+073,SJ_pre3,SJ,Tibialis anterior,1653.77851034
+073,SJ_pre3,SJ,Piriformis,925.56887126
+073,SJ_pre4,SJ,Vasti,5909.707564169999
+073,SJ_pre4,SJ,Gluteus maximus,1684.35624286
+073,SJ_pre4,SJ,Gluteus medius,2596.8080146800003
+073,SJ_pre4,SJ,Gluteus minimus,1354.73109238
+073,SJ_pre4,SJ,Hamstrings,4622.02375419
+073,SJ_pre4,SJ,Adductors,3395.3565498400003
+073,SJ_pre4,SJ,Triceps surae,5872.0937468600005
+073,SJ_pre4,SJ,Iliopsoas,3051.06115506
+073,SJ_pre4,SJ,Rectus femoris,2545.68516571
+073,SJ_pre4,SJ,Tibialis anterior,1657.16218308
+073,SJ_pre4,SJ,Piriformis,876.76764837
+073,SJ_pre5,SJ,Vasti,6118.6193577
+073,SJ_pre5,SJ,Gluteus maximus,1898.8872576899998
+073,SJ_pre5,SJ,Gluteus medius,2479.485091
+073,SJ_pre5,SJ,Gluteus minimus,1350.35108741
+073,SJ_pre5,SJ,Hamstrings,4332.41296906
+073,SJ_pre5,SJ,Adductors,3685.02806625
+073,SJ_pre5,SJ,Triceps surae,6016.88510647
+073,SJ_pre5,SJ,Iliopsoas,2428.03841633
+073,SJ_pre5,SJ,Rectus femoris,2655.73439674
+073,SJ_pre5,SJ,Tibialis anterior,1662.50149031
+073,SJ_pre5,SJ,Piriformis,839.13258257
+073,SLS_back_pre1,SLS back,Vasti,11032.64907442
+073,SLS_back_pre1,SLS back,Gluteus maximus,3383.96784449
+073,SLS_back_pre1,SLS back,Gluteus medius,2826.64014826
+073,SLS_back_pre1,SLS back,Gluteus minimus,1280.64712644
+073,SLS_back_pre1,SLS back,Hamstrings,4581.92367571
+073,SLS_back_pre1,SLS back,Adductors,3851.10366082
+073,SLS_back_pre1,SLS back,Triceps surae,10910.73103495
+073,SLS_back_pre1,SLS back,Iliopsoas,2743.62933727
+073,SLS_back_pre1,SLS back,Rectus femoris,2352.13830285
+073,SLS_back_pre1,SLS back,Tibialis anterior,1440.35143293
+073,SLS_back_pre1,SLS back,Piriformis,1121.49223753
+073,SLS_back_pre2,SLS back,Vasti,11071.523201799999
+073,SLS_back_pre2,SLS back,Gluteus maximus,3209.90969994
+073,SLS_back_pre2,SLS back,Gluteus medius,2725.54228527
+073,SLS_back_pre2,SLS back,Gluteus minimus,1217.52611074
+073,SLS_back_pre2,SLS back,Hamstrings,4892.82994898
+073,SLS_back_pre2,SLS back,Adductors,3416.0230448499997
+073,SLS_back_pre2,SLS back,Triceps surae,10368.649306020001
+073,SLS_back_pre2,SLS back,Iliopsoas,2654.0267730699998
+073,SLS_back_pre2,SLS back,Rectus femoris,2321.21279385
+073,SLS_back_pre2,SLS back,Tibialis anterior,1203.30341276
+073,SLS_back_pre2,SLS back,Piriformis,1010.7452198
+073,SLS_back_pre3,SLS back,Vasti,11064.53159144
+073,SLS_back_pre3,SLS back,Gluteus maximus,3250.36000036
+073,SLS_back_pre3,SLS back,Gluteus medius,2883.56434272
+073,SLS_back_pre3,SLS back,Gluteus minimus,1182.12894301
+073,SLS_back_pre3,SLS back,Hamstrings,4791.15430993
+073,SLS_back_pre3,SLS back,Adductors,3381.49673489
+073,SLS_back_pre3,SLS back,Triceps surae,10335.637478910001
+073,SLS_back_pre3,SLS back,Iliopsoas,2616.4355583300003
+073,SLS_back_pre3,SLS back,Rectus femoris,2343.63531888
+073,SLS_back_pre3,SLS back,Tibialis anterior,1252.96260857
+073,SLS_back_pre3,SLS back,Piriformis,1013.94215079
+073,SLS_front_pre1,SLS front,Vasti,11191.19269917
+073,SLS_front_pre1,SLS front,Gluteus maximus,2963.25852549
+073,SLS_front_pre1,SLS front,Gluteus medius,2088.81723933
+073,SLS_front_pre1,SLS front,Gluteus minimus,1296.9104020300001
+073,SLS_front_pre1,SLS front,Hamstrings,4138.32187064
+073,SLS_front_pre1,SLS front,Adductors,3541.55681347
+073,SLS_front_pre1,SLS front,Triceps surae,10716.68541377
+073,SLS_front_pre1,SLS front,Iliopsoas,2666.20556234
+073,SLS_front_pre1,SLS front,Rectus femoris,2476.0002899
+073,SLS_front_pre1,SLS front,Tibialis anterior,1381.59235512
+073,SLS_front_pre1,SLS front,Piriformis,876.47659569
+073,SLS_front_pre2,SLS front,Vasti,11093.45307409
+073,SLS_front_pre2,SLS front,Gluteus maximus,2853.1846394100003
+073,SLS_front_pre2,SLS front,Gluteus medius,2052.0258023
+073,SLS_front_pre2,SLS front,Gluteus minimus,1304.49674727
+073,SLS_front_pre2,SLS front,Hamstrings,4494.35854235
+073,SLS_front_pre2,SLS front,Adductors,3635.6488736600004
+073,SLS_front_pre2,SLS front,Triceps surae,10611.97143268
+073,SLS_front_pre2,SLS front,Iliopsoas,2618.1665465799997
+073,SLS_front_pre2,SLS front,Rectus femoris,2445.57716355
+073,SLS_front_pre2,SLS front,Tibialis anterior,1437.38889455
+073,SLS_front_pre2,SLS front,Piriformis,808.02039322
+073,SLS_front_pre3,SLS front,Vasti,11056.04317944
+073,SLS_front_pre3,SLS front,Gluteus maximus,3309.75119402
+073,SLS_front_pre3,SLS front,Gluteus medius,2508.19633773
+073,SLS_front_pre3,SLS front,Gluteus minimus,1286.96537067
+073,SLS_front_pre3,SLS front,Hamstrings,4779.81305162
+073,SLS_front_pre3,SLS front,Adductors,3480.46098934
+073,SLS_front_pre3,SLS front,Triceps surae,10659.48608165
+073,SLS_front_pre3,SLS front,Iliopsoas,2658.13306436
+073,SLS_front_pre3,SLS front,Rectus femoris,2401.66682302
+073,SLS_front_pre3,SLS front,Tibialis anterior,1376.31173342
+073,SLS_front_pre3,SLS front,Piriformis,778.72284538
+075,SJ_pre1,SJ,Vasti,6196.558431240001
+075,SJ_pre1,SJ,Gluteus maximus,1483.30130099
+075,SJ_pre1,SJ,Gluteus medius,2244.09094798
+075,SJ_pre1,SJ,Gluteus minimus,1207.76497487
+075,SJ_pre1,SJ,Hamstrings,4950.8030999699995
+075,SJ_pre1,SJ,Adductors,3370.2921256
+075,SJ_pre1,SJ,Triceps surae,7654.129233760001
+075,SJ_pre1,SJ,Iliopsoas,2956.7346857
+075,SJ_pre1,SJ,Rectus femoris,2521.6704118
+075,SJ_pre1,SJ,Tibialis anterior,1674.30798232
+075,SJ_pre1,SJ,Piriformis,540.10250965
+075,SJ_pre2,SJ,Vasti,5928.86843462
+075,SJ_pre2,SJ,Gluteus maximus,1540.63166031
+075,SJ_pre2,SJ,Gluteus medius,2301.80940367
+075,SJ_pre2,SJ,Gluteus minimus,1266.54758735
+075,SJ_pre2,SJ,Hamstrings,4803.9021596699995
+075,SJ_pre2,SJ,Adductors,3106.25190513
+075,SJ_pre2,SJ,Triceps surae,7405.547393569999
+075,SJ_pre2,SJ,Iliopsoas,3011.06322762
+075,SJ_pre2,SJ,Rectus femoris,2534.25828986
+075,SJ_pre2,SJ,Tibialis anterior,1671.46843011
+075,SJ_pre2,SJ,Piriformis,385.95690348
+075,SJ_pre3,SJ,Vasti,6243.87811254
+075,SJ_pre3,SJ,Gluteus maximus,1391.0724304900002
+075,SJ_pre3,SJ,Gluteus medius,2235.85595427
+075,SJ_pre3,SJ,Gluteus minimus,1165.88717965
+075,SJ_pre3,SJ,Hamstrings,4613.1995433600005
+075,SJ_pre3,SJ,Adductors,3232.7865543
+075,SJ_pre3,SJ,Triceps surae,7492.2539994300005
+075,SJ_pre3,SJ,Iliopsoas,2974.77961514
+075,SJ_pre3,SJ,Rectus femoris,2494.16873996
+075,SJ_pre3,SJ,Tibialis anterior,1670.34665943
+075,SJ_pre3,SJ,Piriformis,584.22718108
+075,SJ_pre4,SJ,Vasti,6109.7609939700005
+075,SJ_pre4,SJ,Gluteus maximus,1424.9842251799998
+075,SJ_pre4,SJ,Gluteus medius,2311.40384436
+075,SJ_pre4,SJ,Gluteus minimus,1187.16843499
+075,SJ_pre4,SJ,Hamstrings,4811.76894108
+075,SJ_pre4,SJ,Adductors,3383.3093773099995
+075,SJ_pre4,SJ,Triceps surae,7474.58157148
+075,SJ_pre4,SJ,Iliopsoas,2953.0294125600003
+075,SJ_pre4,SJ,Rectus femoris,2413.83949486
+075,SJ_pre4,SJ,Tibialis anterior,1664.43661931
+075,SJ_pre4,SJ,Piriformis,660.27890608
+075,SJ_pre5,SJ,Vasti,5574.05634121
+075,SJ_pre5,SJ,Gluteus maximus,1737.52512267
+075,SJ_pre5,SJ,Gluteus medius,2173.59360908
+075,SJ_pre5,SJ,Gluteus minimus,1195.63166748
+075,SJ_pre5,SJ,Hamstrings,4645.95812905
+075,SJ_pre5,SJ,Adductors,3235.00576924
+075,SJ_pre5,SJ,Triceps surae,7716.315254720001
+075,SJ_pre5,SJ,Iliopsoas,2935.28855086
+075,SJ_pre5,SJ,Rectus femoris,2522.05360155
+075,SJ_pre5,SJ,Tibialis anterior,1670.97448482
+075,SJ_pre5,SJ,Piriformis,566.70272001
+075,SLS_back_pre1,SLS back,Vasti,10970.28794086
+075,SLS_back_pre1,SLS back,Gluteus maximus,3179.5309629800004
+075,SLS_back_pre1,SLS back,Gluteus medius,2738.94951366
+075,SLS_back_pre1,SLS back,Gluteus minimus,1217.4611924199999
+075,SLS_back_pre1,SLS back,Hamstrings,4069.18767037
+075,SLS_back_pre1,SLS back,Adductors,3841.28946627
+075,SLS_back_pre1,SLS back,Triceps surae,7758.11907697
+075,SLS_back_pre1,SLS back,Iliopsoas,2386.45246505
+075,SLS_back_pre1,SLS back,Rectus femoris,2350.51808358
+075,SLS_back_pre1,SLS back,Tibialis anterior,1474.84421087
+075,SLS_back_pre1,SLS back,Piriformis,1018.28621769
+075,SLS_back_pre2,SLS back,Vasti,11074.61366405
+075,SLS_back_pre2,SLS back,Gluteus maximus,2966.84501554
+075,SLS_back_pre2,SLS back,Gluteus medius,2827.52125733
+075,SLS_back_pre2,SLS back,Gluteus minimus,1236.56763897
+075,SLS_back_pre2,SLS back,Hamstrings,3880.0776234
+075,SLS_back_pre2,SLS back,Adductors,4012.2380875599997
+075,SLS_back_pre2,SLS back,Triceps surae,7656.82880611
+075,SLS_back_pre2,SLS back,Iliopsoas,2317.51895153
+075,SLS_back_pre2,SLS back,Rectus femoris,2381.5027956
+075,SLS_back_pre2,SLS back,Tibialis anterior,1498.25734649
+075,SLS_back_pre2,SLS back,Piriformis,1063.57586274
+075,SLS_back_pre3,SLS back,Vasti,11269.74093689
+075,SLS_back_pre3,SLS back,Gluteus maximus,2928.1725347
+075,SLS_back_pre3,SLS back,Gluteus medius,2601.26889842
+075,SLS_back_pre3,SLS back,Gluteus minimus,1254.37353805
+075,SLS_back_pre3,SLS back,Hamstrings,3804.4528941
+075,SLS_back_pre3,SLS back,Adductors,3713.2694257799994
+075,SLS_back_pre3,SLS back,Triceps surae,9357.272177840001
+075,SLS_back_pre3,SLS back,Iliopsoas,2385.5672787000003
+075,SLS_back_pre3,SLS back,Rectus femoris,2387.46892914
+075,SLS_back_pre3,SLS back,Tibialis anterior,1485.53734445
+075,SLS_back_pre3,SLS back,Piriformis,1031.31486712
+075,SLS_front_pre1,SLS front,Vasti,10969.05192175
+075,SLS_front_pre1,SLS front,Gluteus maximus,2796.44573485
+075,SLS_front_pre1,SLS front,Gluteus medius,2888.30689989
+075,SLS_front_pre1,SLS front,Gluteus minimus,1271.8913447300001
+075,SLS_front_pre1,SLS front,Hamstrings,4216.88395871
+075,SLS_front_pre1,SLS front,Adductors,3710.15268582
+075,SLS_front_pre1,SLS front,Triceps surae,9460.57730407
+075,SLS_front_pre1,SLS front,Iliopsoas,2376.42689057
+075,SLS_front_pre1,SLS front,Rectus femoris,2265.52495869
+075,SLS_front_pre1,SLS front,Tibialis anterior,1481.82113409
+075,SLS_front_pre1,SLS front,Piriformis,919.94686625
+075,SLS_front_pre2,SLS front,Vasti,11017.30019987
+075,SLS_front_pre2,SLS front,Gluteus maximus,3535.44053944
+075,SLS_front_pre2,SLS front,Gluteus medius,2445.26461919
+075,SLS_front_pre2,SLS front,Gluteus minimus,1324.88765729
+075,SLS_front_pre2,SLS front,Hamstrings,4677.77018077
+075,SLS_front_pre2,SLS front,Adductors,3738.3272549800004
+075,SLS_front_pre2,SLS front,Triceps surae,8730.96187352
+075,SLS_front_pre2,SLS front,Iliopsoas,2404.78119695
+075,SLS_front_pre2,SLS front,Rectus femoris,2381.88773001
+075,SLS_front_pre2,SLS front,Tibialis anterior,1519.05087305
+075,SLS_front_pre2,SLS front,Piriformis,1080.55742573
+075,SLS_front_pre3,SLS front,Vasti,11443.66374417
+075,SLS_front_pre3,SLS front,Gluteus maximus,2767.62938263
+075,SLS_front_pre3,SLS front,Gluteus medius,3018.6870923
+075,SLS_front_pre3,SLS front,Gluteus minimus,1311.18203494
+075,SLS_front_pre3,SLS front,Hamstrings,4900.287885219999
+075,SLS_front_pre3,SLS front,Adductors,3739.34438369
+075,SLS_front_pre3,SLS front,Triceps surae,8257.744054120001
+075,SLS_front_pre3,SLS front,Iliopsoas,2299.81088709
+075,SLS_front_pre3,SLS front,Rectus femoris,2371.01865367
+075,SLS_front_pre3,SLS front,Tibialis anterior,1461.99052797
+075,SLS_front_pre3,SLS front,Piriformis,849.19450745
+076,SJ_pre1,SJ,Vasti,5651.78941547
+076,SJ_pre1,SJ,Gluteus maximus,1759.54779908
+076,SJ_pre1,SJ,Gluteus medius,2682.2852071899997
+076,SJ_pre1,SJ,Gluteus minimus,1453.2592517399999
+076,SJ_pre1,SJ,Hamstrings,4873.70414194
+076,SJ_pre1,SJ,Adductors,3222.5871607599997
+076,SJ_pre1,SJ,Triceps surae,7292.297854480001
+076,SJ_pre1,SJ,Iliopsoas,3008.62857299
+076,SJ_pre1,SJ,Rectus femoris,2584.73581131
+076,SJ_pre1,SJ,Tibialis anterior,1632.10514198
+076,SJ_pre1,SJ,Piriformis,1221.06260288
+076,SJ_pre2,SJ,Vasti,6147.30093486
+076,SJ_pre2,SJ,Gluteus maximus,1525.6297731700001
+076,SJ_pre2,SJ,Gluteus medius,2256.34797066
+076,SJ_pre2,SJ,Gluteus minimus,1425.61159639
+076,SJ_pre2,SJ,Hamstrings,4828.466473300001
+076,SJ_pre2,SJ,Adductors,3070.1881774
+076,SJ_pre2,SJ,Triceps surae,7973.40530197
+076,SJ_pre2,SJ,Iliopsoas,2615.66679816
+076,SJ_pre2,SJ,Rectus femoris,2596.21056172
+076,SJ_pre2,SJ,Tibialis anterior,1653.96621263
+076,SJ_pre2,SJ,Piriformis,415.51155282
+076,SJ_pre3,SJ,Vasti,6027.76193262
+076,SJ_pre3,SJ,Gluteus maximus,1578.88932077
+076,SJ_pre3,SJ,Gluteus medius,2192.95695998
+076,SJ_pre3,SJ,Gluteus minimus,1366.37305993
+076,SJ_pre3,SJ,Hamstrings,5222.11291185
+076,SJ_pre3,SJ,Adductors,3798.8826600800003
+076,SJ_pre3,SJ,Triceps surae,7791.98311114
+076,SJ_pre3,SJ,Iliopsoas,3014.50003069
+076,SJ_pre3,SJ,Rectus femoris,2611.05473674
+076,SJ_pre3,SJ,Tibialis anterior,1668.05510924
+076,SJ_pre3,SJ,Piriformis,438.53087944
+076,SJ_pre4,SJ,Vasti,5790.2710836100005
+076,SJ_pre4,SJ,Gluteus maximus,1311.58483765
+076,SJ_pre4,SJ,Gluteus medius,2192.9064340200002
+076,SJ_pre4,SJ,Gluteus minimus,1277.04427684
+076,SJ_pre4,SJ,Hamstrings,5374.381332649999
+076,SJ_pre4,SJ,Adductors,2947.86071497
+076,SJ_pre4,SJ,Triceps surae,7344.36738849
+076,SJ_pre4,SJ,Iliopsoas,2097.2710753
+076,SJ_pre4,SJ,Rectus femoris,2610.16150012
+076,SJ_pre4,SJ,Tibialis anterior,1652.17187381
+076,SJ_pre4,SJ,Piriformis,415.30164397
+076,SJ_pre5,SJ,Vasti,5839.82880055
+076,SJ_pre5,SJ,Gluteus maximus,1619.0261242000001
+076,SJ_pre5,SJ,Gluteus medius,2195.40045606
+076,SJ_pre5,SJ,Gluteus minimus,1357.89126976
+076,SJ_pre5,SJ,Hamstrings,5147.47533245
+076,SJ_pre5,SJ,Adductors,2927.41800633
+076,SJ_pre5,SJ,Triceps surae,7517.62490316
+076,SJ_pre5,SJ,Iliopsoas,2505.98467993
+076,SJ_pre5,SJ,Rectus femoris,2640.77457627
+076,SJ_pre5,SJ,Tibialis anterior,1647.87798398
+076,SJ_pre5,SJ,Piriformis,429.23647451
+076,SLS_back_pre1,SLS back,Vasti,10679.40108105
+076,SLS_back_pre1,SLS back,Gluteus maximus,2629.58153589
+076,SLS_back_pre1,SLS back,Gluteus medius,2918.81120048
+076,SLS_back_pre1,SLS back,Gluteus minimus,1319.92099292
+076,SLS_back_pre1,SLS back,Hamstrings,4731.02411269
+076,SLS_back_pre1,SLS back,Adductors,3185.8777588599996
+076,SLS_back_pre1,SLS back,Triceps surae,10719.185770470001
+076,SLS_back_pre1,SLS back,Iliopsoas,2627.86393501
+076,SLS_back_pre1,SLS back,Rectus femoris,2327.91138256
+076,SLS_back_pre1,SLS back,Tibialis anterior,1356.58925167
+076,SLS_back_pre1,SLS back,Piriformis,1156.18249179
+076,SLS_back_pre2,SLS back,Vasti,10935.90011613
+076,SLS_back_pre2,SLS back,Gluteus maximus,3218.10063586
+076,SLS_back_pre2,SLS back,Gluteus medius,2885.88159486
+076,SLS_back_pre2,SLS back,Gluteus minimus,1303.71271437
+076,SLS_back_pre2,SLS back,Hamstrings,4984.268472979999
+076,SLS_back_pre2,SLS back,Adductors,3373.53897887
+076,SLS_back_pre2,SLS back,Triceps surae,9590.44430653
+076,SLS_back_pre2,SLS back,Iliopsoas,2708.54415914
+076,SLS_back_pre2,SLS back,Rectus femoris,2418.67577437
+076,SLS_back_pre2,SLS back,Tibialis anterior,1377.51659179
+076,SLS_back_pre2,SLS back,Piriformis,1164.76311712
+076,SLS_back_pre3,SLS back,Vasti,10185.24222823
+076,SLS_back_pre3,SLS back,Gluteus maximus,2764.13347145
+076,SLS_back_pre3,SLS back,Gluteus medius,2925.87902693
+076,SLS_back_pre3,SLS back,Gluteus minimus,1345.38750915
+076,SLS_back_pre3,SLS back,Hamstrings,4806.21961783
+076,SLS_back_pre3,SLS back,Adductors,3101.2639021799996
+076,SLS_back_pre3,SLS back,Triceps surae,8188.68193735
+076,SLS_back_pre3,SLS back,Iliopsoas,2481.62308797
+076,SLS_back_pre3,SLS back,Rectus femoris,2239.98502011
+076,SLS_back_pre3,SLS back,Tibialis anterior,1337.24913385
+076,SLS_back_pre3,SLS back,Piriformis,1161.16293031
+076,SLS_front_pre1,SLS front,Vasti,9158.58732681
+076,SLS_front_pre1,SLS front,Gluteus maximus,2204.77555678
+076,SLS_front_pre1,SLS front,Gluteus medius,2645.56794365
+076,SLS_front_pre1,SLS front,Gluteus minimus,1324.08340411
+076,SLS_front_pre1,SLS front,Hamstrings,4492.40617553
+076,SLS_front_pre1,SLS front,Adductors,3151.37415737
+076,SLS_front_pre1,SLS front,Triceps surae,11870.728846639999
+076,SLS_front_pre1,SLS front,Iliopsoas,2543.12765104
+076,SLS_front_pre1,SLS front,Rectus femoris,2383.04930918
+076,SLS_front_pre1,SLS front,Tibialis anterior,1364.68341866
+076,SLS_front_pre1,SLS front,Piriformis,842.95493185
+076,SLS_front_pre2,SLS front,Vasti,9765.75501733
+076,SLS_front_pre2,SLS front,Gluteus maximus,2429.44569942
+076,SLS_front_pre2,SLS front,Gluteus medius,2706.9433392399997
+076,SLS_front_pre2,SLS front,Gluteus minimus,1311.9108035099998
+076,SLS_front_pre2,SLS front,Hamstrings,4018.1167846800004
+076,SLS_front_pre2,SLS front,Adductors,3312.34698932
+076,SLS_front_pre2,SLS front,Triceps surae,10257.489449370001
+076,SLS_front_pre2,SLS front,Iliopsoas,2318.73202412
+076,SLS_front_pre2,SLS front,Rectus femoris,2241.16450553
+076,SLS_front_pre2,SLS front,Tibialis anterior,1336.48866111
+076,SLS_front_pre2,SLS front,Piriformis,754.18116224
+076,SLS_front_pre3,SLS front,Vasti,11155.85204494
+076,SLS_front_pre3,SLS front,Gluteus maximus,3288.86340248
+076,SLS_front_pre3,SLS front,Gluteus medius,2630.22872125
+076,SLS_front_pre3,SLS front,Gluteus minimus,1381.79021367
+076,SLS_front_pre3,SLS front,Hamstrings,4376.52297294
+076,SLS_front_pre3,SLS front,Adductors,3725.8278669
+076,SLS_front_pre3,SLS front,Triceps surae,10804.04652611
+076,SLS_front_pre3,SLS front,Iliopsoas,2454.53318721
+076,SLS_front_pre3,SLS front,Rectus femoris,2466.12549175
+076,SLS_front_pre3,SLS front,Tibialis anterior,1370.23065396
+076,SLS_front_pre3,SLS front,Piriformis,832.13339126
+077,SJ_pre1,SJ,Vasti,6338.96265888
+077,SJ_pre1,SJ,Gluteus maximus,1437.8990320900002
+077,SJ_pre1,SJ,Gluteus medius,2406.1893539000002
+077,SJ_pre1,SJ,Gluteus minimus,1323.36656264
+077,SJ_pre1,SJ,Hamstrings,3491.18847562
+077,SJ_pre1,SJ,Adductors,3192.91961314
+077,SJ_pre1,SJ,Triceps surae,5769.74330884
+077,SJ_pre1,SJ,Iliopsoas,2073.10068691
+077,SJ_pre1,SJ,Rectus femoris,2522.69214188
+077,SJ_pre1,SJ,Tibialis anterior,1644.14722539
+077,SJ_pre1,SJ,Piriformis,831.73446637
+077,SJ_pre2,SJ,Vasti,6375.74225915
+077,SJ_pre2,SJ,Gluteus maximus,1621.4150184799998
+077,SJ_pre2,SJ,Gluteus medius,2604.13918046
+077,SJ_pre2,SJ,Gluteus minimus,1382.57919318
+077,SJ_pre2,SJ,Hamstrings,3693.49549492
+077,SJ_pre2,SJ,Adductors,3369.2813994199996
+077,SJ_pre2,SJ,Triceps surae,4910.596256379999
+077,SJ_pre2,SJ,Iliopsoas,2594.5094605599998
+077,SJ_pre2,SJ,Rectus femoris,2280.79335005
+077,SJ_pre2,SJ,Tibialis anterior,1633.30226384
+077,SJ_pre2,SJ,Piriformis,864.00560985
+077,SJ_pre3,SJ,Vasti,6257.03377447
+077,SJ_pre3,SJ,Gluteus maximus,1427.73752261
+077,SJ_pre3,SJ,Gluteus medius,2492.77359547
+077,SJ_pre3,SJ,Gluteus minimus,1270.1507576200001
+077,SJ_pre3,SJ,Hamstrings,4146.07410592
+077,SJ_pre3,SJ,Adductors,3298.81429024
+077,SJ_pre3,SJ,Triceps surae,5421.07476539
+077,SJ_pre3,SJ,Iliopsoas,2117.51650339
+077,SJ_pre3,SJ,Rectus femoris,2462.3813375
+077,SJ_pre3,SJ,Tibialis anterior,1652.77409986
+077,SJ_pre3,SJ,Piriformis,990.83297511
+077,SJ_pre4,SJ,Vasti,6215.6989828900005
+077,SJ_pre4,SJ,Gluteus maximus,1342.68895808
+077,SJ_pre4,SJ,Gluteus medius,2475.48789588
+077,SJ_pre4,SJ,Gluteus minimus,1406.77777932
+077,SJ_pre4,SJ,Hamstrings,3920.2690217
+077,SJ_pre4,SJ,Adductors,2912.0210024000003
+077,SJ_pre4,SJ,Triceps surae,3418.38440966
+077,SJ_pre4,SJ,Iliopsoas,2220.02531029
+077,SJ_pre4,SJ,Rectus femoris,2091.21846279
+077,SJ_pre4,SJ,Tibialis anterior,1636.3351603
+077,SJ_pre4,SJ,Piriformis,735.07683532
+077,SJ_pre5,SJ,Vasti,6154.02951458
+077,SJ_pre5,SJ,Gluteus maximus,1350.1041192500002
+077,SJ_pre5,SJ,Gluteus medius,2429.56142494
+077,SJ_pre5,SJ,Gluteus minimus,1311.0469104899998
+077,SJ_pre5,SJ,Hamstrings,4246.66262602
+077,SJ_pre5,SJ,Adductors,3270.40282618
+077,SJ_pre5,SJ,Triceps surae,4788.06829618
+077,SJ_pre5,SJ,Iliopsoas,2922.70943069
+077,SJ_pre5,SJ,Rectus femoris,2352.16543272
+077,SJ_pre5,SJ,Tibialis anterior,1633.36223006
+077,SJ_pre5,SJ,Piriformis,840.37684656
+077,SLS_back_pre1,SLS back,Vasti,10949.04899295
+077,SLS_back_pre1,SLS back,Gluteus maximus,3391.99919078
+077,SLS_back_pre1,SLS back,Gluteus medius,3121.28227218
+077,SLS_back_pre1,SLS back,Gluteus minimus,1462.80403811
+077,SLS_back_pre1,SLS back,Hamstrings,4789.23828942
+077,SLS_back_pre1,SLS back,Adductors,2991.0273238100003
+077,SLS_back_pre1,SLS back,Triceps surae,8722.31775062
+077,SLS_back_pre1,SLS back,Iliopsoas,2444.85663133
+077,SLS_back_pre1,SLS back,Rectus femoris,2137.53984582
+077,SLS_back_pre1,SLS back,Tibialis anterior,1421.28811514
+077,SLS_back_pre1,SLS back,Piriformis,1187.01828412
+077,SLS_back_pre2,SLS back,Vasti,9580.3404018
+077,SLS_back_pre2,SLS back,Gluteus maximus,3025.3105494300003
+077,SLS_back_pre2,SLS back,Gluteus medius,2936.32482265
+077,SLS_back_pre2,SLS back,Gluteus minimus,1316.15767097
+077,SLS_back_pre2,SLS back,Hamstrings,4641.1615686
+077,SLS_back_pre2,SLS back,Adductors,2725.3545071000003
+077,SLS_back_pre2,SLS back,Triceps surae,10061.44814644
+077,SLS_back_pre2,SLS back,Iliopsoas,2151.33579843
+077,SLS_back_pre2,SLS back,Rectus femoris,1808.91692815
+077,SLS_back_pre2,SLS back,Tibialis anterior,1412.0826506
+077,SLS_back_pre2,SLS back,Piriformis,1176.12646893
+077,SLS_back_pre3,SLS back,Vasti,10242.57909693
+077,SLS_back_pre3,SLS back,Gluteus maximus,2962.58045387
+077,SLS_back_pre3,SLS back,Gluteus medius,3159.06501715
+077,SLS_back_pre3,SLS back,Gluteus minimus,1410.44041433
+077,SLS_back_pre3,SLS back,Hamstrings,4869.28952524
+077,SLS_back_pre3,SLS back,Adductors,3501.7773598900003
+077,SLS_back_pre3,SLS back,Triceps surae,8081.908247179999
+077,SLS_back_pre3,SLS back,Iliopsoas,2311.34805521
+077,SLS_back_pre3,SLS back,Rectus femoris,2158.73319003
+077,SLS_back_pre3,SLS back,Tibialis anterior,1408.27316505
+077,SLS_back_pre3,SLS back,Piriformis,1269.93986393
+077,SLS_front_pre1,SLS front,Vasti,9886.014059289999
+077,SLS_front_pre1,SLS front,Gluteus maximus,2714.88224164
+077,SLS_front_pre1,SLS front,Gluteus medius,2468.51178713
+077,SLS_front_pre1,SLS front,Gluteus minimus,1160.29934009
+077,SLS_front_pre1,SLS front,Hamstrings,3934.0094640300003
+077,SLS_front_pre1,SLS front,Adductors,3291.54385825
+077,SLS_front_pre1,SLS front,Triceps surae,10886.744086589999
+077,SLS_front_pre1,SLS front,Iliopsoas,2393.27442653
+077,SLS_front_pre1,SLS front,Rectus femoris,1612.91134851
+077,SLS_front_pre1,SLS front,Tibialis anterior,1335.96521002
+077,SLS_front_pre1,SLS front,Piriformis,1118.71623252
+077,SLS_front_pre2,SLS front,Vasti,9577.78840061
+077,SLS_front_pre2,SLS front,Gluteus maximus,3102.07557532
+077,SLS_front_pre2,SLS front,Gluteus medius,2409.49497218
+077,SLS_front_pre2,SLS front,Gluteus minimus,1253.2400309099999
+077,SLS_front_pre2,SLS front,Hamstrings,4259.37732985
+077,SLS_front_pre2,SLS front,Adductors,3326.3227556700003
+077,SLS_front_pre2,SLS front,Triceps surae,11590.68861062
+077,SLS_front_pre2,SLS front,Iliopsoas,2168.87540025
+077,SLS_front_pre2,SLS front,Rectus femoris,1910.51132529
+077,SLS_front_pre2,SLS front,Tibialis anterior,1241.0237296
+077,SLS_front_pre2,SLS front,Piriformis,909.8459162
+077,SLS_front_pre3,SLS front,Vasti,10030.94535599
+077,SLS_front_pre3,SLS front,Gluteus maximus,3294.52270057
+077,SLS_front_pre3,SLS front,Gluteus medius,2484.3841456
+077,SLS_front_pre3,SLS front,Gluteus minimus,1182.9537977199998
+077,SLS_front_pre3,SLS front,Hamstrings,3603.39863682
+077,SLS_front_pre3,SLS front,Adductors,3257.99821646
+077,SLS_front_pre3,SLS front,Triceps surae,11101.82581327
+077,SLS_front_pre3,SLS front,Iliopsoas,2318.5944366
+077,SLS_front_pre3,SLS front,Rectus femoris,2095.31746936
+077,SLS_front_pre3,SLS front,Tibialis anterior,1269.56543859
+077,SLS_front_pre3,SLS front,Piriformis,916.36327452
