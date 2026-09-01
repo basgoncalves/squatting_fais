@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <TrialSettings>
-   <replace>False</replace>
+   <replace>True</replace>
    <path>.</path>
    <settingsXML>trial_settings.xml</settingsXML>
    <subject>039</subject>
@@ -10,7 +10,7 @@
    <model_name>scaled.osim</model_name>
    <model_dir>..\..\..\models\039_Rajagopal2015_FAI.osim</model_dir>
    <body_mass>79.00000000000007</body_mass>
-   <time_range>[0.0, 10.825]</time_range>
+   <time_range>[3.0, 8.5]</time_range>
    <setup_dir>..\..\..\code\setupFiles</setup_dir>
    <c3d>c3dfile.c3d</c3d>
    <emg>emg.mot</emg>
@@ -52,4 +52,5 @@
    <ceinms_muscle_forces>Execution_a10_b1_g1000\MuscleForces.sto</ceinms_muscle_forces>
    <ceinms_activations>Execution_a10_b1_g1000\Activations.sto</ceinms_activations>
    <jra_ceinms>Analyse_JRA_ReactionLoads_CEINMS.sto</jra_ceinms>
+   <Target_Muscles>all</Target_Muscles>
 </TrialSettings>
